@@ -1,6 +1,6 @@
 # Awesome-CPQ
 
-# Top CPQ Tools Ecosystem
+## Top CPQ Tools Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Configure-Price-Quote, Product Configuration, Guided Selling, Pricing Rules & Quote Generation*
 **Last updated: August 2026**
