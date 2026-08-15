@@ -20,30 +20,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Disclaimer](#disclaimer)
 
 ## SaaS/Hosted Platforms
-- **[Salesforce CPQ](https://www.salesforce.com/products/cpq/overview/)** (part of Revenue Cloud)  
-  Leading native CPQ solution tightly integrated with Salesforce CRM for product configuration, guided selling, pricing rules, approvals, and quote-to-cash automation.
-- **[Conga CPQ](https://conga.com/)**  
-  Robust CPQ platform focused on complex product configuration, document generation, and revenue lifecycle management with strong Salesforce and Microsoft integrations.
-- **[Oracle CPQ](https://www.oracle.com/cx/sales/cpq/)**  
-  Enterprise-grade Configure-Price-Quote solution within Oracle CX, supporting complex configurations, multi-channel selling, and deep ERP integration.
-- **[DealHub](https://dealhub.io/)**  
-  Modern CPQ and revenue platform emphasizing speed, guided selling, interactive proposals, and deal desk collaboration.
-- **[Logik.io](https://www.logik.io/)**  
-  Cloud-native CPQ designed for complex product configuration with a visual rules engine and strong focus on manufacturability and accuracy.
-- **[PROS Smart CPQ](https://pros.com/)**  
-  AI-powered CPQ and pricing optimization platform that combines configuration, dynamic pricing, and deal guidance.
-- **[Experlogix](https://www.experlogix.com/)**  
-  Flexible CPQ solution supporting complex configurable products, visual configuration, and integration with major CRM/ERP systems.
-- **[Configure One](https://www.configureone.com/)**  
-  Specialist CPQ for manufacturers of complex, engineered-to-order products with strong CAD and BOM generation capabilities.
-- **[Epicor CPQ](https://www.epicor.com/)**  
-  CPQ tailored for complex configurable products, offering 3D/AR visualization, CAD drawings, automatic BOMs, and multi-channel quoting.
-- **[Tacton](https://www.tacton.com/)**  
-  Constraint-based CPQ platform known for handling highly complex product configuration and manufacturing integration.
-- **[Cincom CPQ](https://www.cincom.com/)**  
-  Established solution for complex selling environments with configuration, pricing, and proposal automation.
-- **[Hive CPQ](https://www.hivecpq.com/)**  
-  User-friendly CPQ focused on manufacturers, with 3D configuration, real-time pricing, and error-free quote generation.
+| Product | Description | Pricing | Free Tier Limit |
+|---------|-------------|---------|-----------------|
+| **[Salesforce CPQ](https://www.salesforce.com/products/cpq/overview/)** (part of Revenue Cloud) | Leading native CPQ solution tightly integrated with Salesforce CRM for product configuration, guided selling, pricing rules, approvals, and quote-to-cash automation. | ~$200/user/month | Unlimited days Developer Edition Org |
+| **[Conga CPQ](https://conga.com/)** | Robust CPQ platform focused on complex product configuration, document generation, and revenue lifecycle management with strong Salesforce and Microsoft integrations. | ~$35/user/month (estimated) | Unlimited days Training Orgs |
+| **[Oracle CPQ](https://www.oracle.com/cx/sales/cpq/)** | Enterprise-grade Configure-Price-Quote solution within Oracle CX, supporting complex configurations, multi-channel selling, and deep ERP integration. | ~$130/user/month (estimated) | Unlimited days Practice Environments (Partners/Customers) |
+| **[DealHub](https://dealhub.io/)** | Modern CPQ and revenue platform emphasizing speed, guided selling, interactive proposals, and deal desk collaboration. | ~$50/user/month (estimated) | Negotiated Proof-of-Concept Trial |
+| **[Logik.io](https://www.logik.io/)** | Cloud-native CPQ designed for complex product configuration with a visual rules engine and strong focus on manufacturability and accuracy. | ~$1,500/month (estimated) | Monthly Training Sessions Sandbox |
+| **[PROS Smart CPQ](https://pros.com/)** | AI-powered CPQ and pricing optimization platform that combines configuration, dynamic pricing, and deal guidance. | ~$65/user/month (estimated) | Tailored demo environment only |
+| **[Experlogix](https://www.experlogix.com/)** | Flexible CPQ solution supporting complex configurable products, visual configuration, and integration with major CRM/ERP systems. | ~$40/user/month (estimated) | Interactive web-based guided demos only |
+| **[Configure One](https://www.configureone.com/)** | Specialist CPQ for manufacturers of complex, engineered-to-order products with strong CAD and BOM generation capabilities. | ~$150/user/month | Tailored demo environment only |
+| **[Epicor CPQ](https://www.epicor.com/)** | CPQ tailored for complex configurable products, offering 3D/AR visualization, CAD drawings, automatic BOMs, and multi-channel quoting. | ~$150/user/month | Free guided demo only |
+| **[Tacton](https://www.tacton.com/)** | Constraint-based CPQ platform known for handling highly complex product configuration and manufacturing integration. | ~$100/user/month (estimated) | Tailored demo environment only |
+| **[Cincom CPQ](https://www.cincom.com/)** | Established solution for complex selling environments with configuration, pricing, and proposal automation. | ~$50,000 one-time implementation | Tailored interactive demo only |
+| **[Hive CPQ](https://www.hivecpq.com/)** | User-friendly CPQ focused on manufacturers, with 3D configuration, real-time pricing, and error-free quote generation. | ~€1,500/month | 30-day Free Trial (Dedicated Sandbox) |
 
 ## Open-Source GitHub Projects
 - **[openCPQ](https://github.com/webXcerpt/openCPQ)**  
