@@ -1,156 +1,91 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Awesome Crew Training Management Banner" width="100%" />
-</p>
+# Awesome-Identity-Resolution-Platform
 
-# Awesome Crew Training Management ✈️ 📋 🎓
+## Top Identity Resolution Platform Tools Ecosystem
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Customer Identity Graphs, Entity Resolution, Deterministic & Probabilistic Matching, Cross-Device Identity, Unified Profiles & Record Linkage*  
+**Last updated: August 2026**
 
-<p align="center">
-  <b>Curated Directory of SaaS Platforms &amp; Open-Source Projects for Aviation Crew Training Records, Pilot/ATO Training Management, CBTA/EBT Compliance Tracking &amp; Flight School LMS</b>
-</p>
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Identity Resolution**. These tools stitch together fragmented customer, device, and household identifiers across channels and data sources to create unified profiles — enabling accurate targeting, personalization, measurement, and analytics while navigating privacy constraints.
 
-<p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Crew-Training-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Crew-Training-Management?style=social" alt="GitHub Stars"/></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Crew-Training-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Crew-Training-Management?style=social" alt="GitHub Forks"/></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Crew-Training-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"/></a>
-  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
-</p>
+**Examples** include LiveRamp, Amperity, Reltio, mParticle, Segment Personas, BlueConic, Tealium, ActionIQ, Treasure Data, Zeta Global, FullContact, Zeotap, Acxiom, Near, Tapad, Infutor, RingLead, Experian Identity, TransUnion TruAudience, LiveRamp Safe Haven, Neustar, and Lotame (the category leaders and widely used platforms).
 
+**Open-source emphasis**: Full commercial-scale open-source identity graphs comparable to LiveRamp or Amperity are rare. This section prioritizes the strongest available open-source entity resolution, record linkage, and identity-stitching libraries and frameworks that data and engineering teams use to build custom identity resolution systems inside their own warehouses or infrastructure.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites / GitHub repos.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saashosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+| Platform | Description & Core Capabilities | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[LiveRamp](https://liveramp.com/)** | Enterprise identity resolution and data collaboration platform with RampID deterministic graph, cross-channel identity translation, and Safe Haven clean rooms. | Starts at **$833/mo** ($10,000/yr base RampID resolution tier on AWS/Snowflake Marketplace; enterprise contracts avg $50,000–$150,000/yr). | **No free-forever plan**; 14-day to 30-day Proof of Concept (POC) / test-drive with up to 10,000 sample records upon sales approval. |
+| **[Amperity](https://amperity.com/)** | AI-powered customer data platform specializing in patented Stitch identity resolution (probabilistic & deterministic) for unified enterprise Customer 360 profiles. | Starts at **$5,000/mo** ($60,000/yr base platform tier for Customer Data Cloud compute & Amp credits; enterprise contracts avg $100k–$250k+/yr). | **No free-forever plan**; 30-day custom sandbox / POC trial with up to 50,000 customer test records upon discovery demo. |
+| **[Reltio](https://www.reltio.com/)** | Cloud-native Master Data Management (MDM) and entity resolution platform for creating real-time trusted golden customer records. | **Free Forever Tier** available on Identity 360; Paid Enterprise MDM editions start at **$3,333/mo** ($40,000/yr on AWS Marketplace). | **Free Forever Plan** (Identity 360) supporting up to **10,000 unique consolidated profiles**; 30-day test drive for industry Velocity Packs. |
+| **[mParticle](https://www.mparticle.com/)** | Real-time customer data platform with native IDSync multi-identifier resolution, cross-device rule stitching, and mobile SDK pipelines. | Starts at **$1,500/mo** ($18,000/yr base package for data ingestion and IDSync; average enterprise deployment ~$156,000/yr). | **No free-forever plan**; 30-day developer sandbox / POC trial with up to 100,000 test events upon sales consultation. |
+| **[Twilio Segment](https://segment.com/)** (Unify) | Real-time identity resolution engine (Segment Unify) and customer profile merging across mobile, web, and server event pipelines. | **Free Forever Tier** on Connections; Team plan starts at **$120/mo** (up to 10k MTUs); Unify identity add-on starts at **$1,250/mo** ($15,000/yr). | **Free Forever Plan** on Connections (up to **1,000 MTUs** and 2 data sources); 14-day free trial on Team & Business CDP features. |
+| **[BlueConic](https://www.blueconic.com/)** | Pure-play customer data platform featuring automated profile unification, multi-identifier graph stitching, and real-time behavioral segmentation. | Starts at **$2,500/mo** ($30,000/yr base subscription tier for up to 100,000 active unified customer profiles). | **No free-forever plan**; 14-day to 30-day guided Proof of Concept (POC) trial upon scheduling an enterprise platform demo. |
+| **[Tealium](https://tealium.com/)** (AudienceStream) | Enterprise Customer Data Hub and CDP delivering real-time visitor stitching, omnichannel identity unification, and tag management. | Starts at **$2,500/mo** ($30,000/yr for entry EventStream + AudienceStream bundle managing up to 1M events/mo). | **No free-forever plan**; 30-day sandbox / POC trial with up to 500,000 test events upon enterprise sales discovery. |
+| **[ActionIQ](https://www.actioniq.com/)** (Uniphore) | Composable CDP providing zero-copy data warehouse integration, Hybrid Identity Resolution, and enterprise audience orchestration. | Starts at **$8,333/mo** ($100,000/yr base enterprise subscription for composable identity and audience management). | **No free-forever plan**; 30-day enterprise Proof of Concept (POC) sandbox environment following custom data scoping. |
+| **[Treasure Data](https://www.treasuredata.com/)** | Enterprise CDP using a "No Compute" model to deliver high-scale identity resolution, IoT/event data unification, and predictive analytics. | Starts at **$3,500/mo** ($42,000/yr base subscription for profile management and behavioral event ingestion on AWS Marketplace). | **No free-forever plan**; 30-day enterprise POC trial environment on AWS Marketplace / enterprise evaluation. |
+| **[Zeta Global](https://zetaglobal.com/)** | Marketing and identity platform combining proprietary Data Cloud graph (2.4B+ profiles), deterministic resolution, and omni-channel activation. | Starts at **$5,000/mo** ($60,000/yr base platform license or equivalent annual media commitment). | **No free-forever plan**; 30-day custom match-rate diagnostic & POC trial on a sample customer list upon sales engagement. |
+| **[FullContact](https://www.fullcontact.com/)** | Identity resolution and data enrichment APIs powered by persistent PersonID, multi-identifier graph matching, and household linkages. | Starts at **$99/mo** (Developer API tier with up to 2,500 lookups/mo; commercial API packages start at **$500/mo** or $6,000/yr). | **Free Developer Trial Key** with **1,000 free API match/enrichment queries** (no expiration for initial test credits). |
+| **[Zeotap](https://zeotap.com/)** | Customer data platform and ID+ graph providing deterministic and probabilistic identity resolution with strict European GDPR compliance. | Starts at **$2,500/mo** ($30,000/yr base tier for identity resolution and profile management up to 250,000 profiles). | **No free-forever plan**; 30-day guided POC trial and sandbox environment following enterprise sales demo. |
+| **[Acxiom](https://www.acxiom.com/)** (Real ID) | Enterprise identity resolution featuring the InfoBase identity graph and Acxiom Real ID for in-warehouse matching on Snowflake and Databricks. | Starts at **$2,000/mo** ($24,000/yr entry licensing or **$0.02–$0.05 per matched record** on Snowflake Marketplace). | **Snowflake Marketplace Test Drive** allowing up to **1,000 sample record matches**; 30-day proof of concept for enterprise datasets. |
+| **[Experian](https://www.experian.com/)** (Identity Resolution) | Bureau-grade identity resolution and ConsumerView graph enabling offline-to-online deterministic linkage, householding, and enrichment. | Starts at **$2,500/mo** ($30,000/yr minimum annual commitment or **$0.02–$0.08 per match lookup**). | **No free-forever plan**; 30-day sample data match-rate diagnostic test (up to 5,000 record test batch) via enterprise sales. |
+| **[TransUnion](https://www.transunion.com/)** (TruAudience) | Identity graph and resolution suite (including Neustar OneID / Fabrick) for cross-screen identity, measurement, and privacy-first matching. | Starts at **$3,000/mo** ($36,000/yr base identity graph access and query license on Snowflake/AWS Marketplace). | **TruAudience Data Health Assessment (DHA)** free trial on Snowflake with up to **2,500 record matches**; 30-day POC trial. |
+| **[Tapad](https://www.tapad.com/)** | Cross-device identity resolution and digital device graph linking cookies, MAIDs, CTV IDs, and household devices for omnichannel targeting. | Starts at **$3,000/mo** ($36,000/yr entry graph licensing and data feed access). | **No free-forever plan**; 30-day POC match assessment on sample cross-device dataset (up to 10,000 test device IDs). |
+| **[Infutor](https://www.infutor.com/)** (Verisk) | Consumer identity resolution and TrueSource graph with real-time IDMax API for lead verification and CRM identity attribute completion. | Starts at **$500/mo** ($6,000/yr base API subscription or **$0.03–$0.07 per API lookup**). | **No free-forever plan**; 14-day free API test trial with up to **1,000 test lookups** upon developer account registration. |
+| **[Lotame](https://www.lotame.com/)** (Panorama ID) | Cookieless identity resolution (Panorama ID) and Spherical CDP for first-party data onboarding, enrichment, and cross-channel activation. | Starts at **$2,500/mo** ($30,000/yr base subscription for Spherical onboarding & identity platform). | **Free Forever Open Access** for Panorama ID generation/deployment for publishers/web; 30-day POC for Spherical CDP platform. |
+| **[ZoomInfo RingLead](https://www.ringlead.com/)** | Revenue operations and data orchestration platform for lead-to-account matching, CRM deduplication, data cleansing, and automated routing. | Starts at **$500/mo** ($6,000/yr base package for CRM deduplication; full Operations suite starts at **$20,000/yr**). | **No free-forever plan**; 14-day guided sandbox trial and CRM data quality health scan (up to 10,000 CRM records) upon scheduling a demo. |
+
+## Open-Source GitHub Projects
+- **[Splink](https://github.com/moj-analytical-services/splink)**  
+  Leading open-source probabilistic record linkage and entity resolution framework (Python/SQL/Spark). Implements scalable Fellegi-Sunter models with transparent match weights — the strongest pure open-source option for building production identity resolution pipelines.
+- **[Zingg](https://github.com/zinggAI/zingg)**  
+  Scalable open-source entity resolution tool using active learning and Spark. Designed for large datasets and practical data-mastering workflows.
+- **[dedupe](https://github.com/dedupeio/dedupe)**  
+  Mature Python library for fuzzy matching, deduplication, and entity resolution using active learning. Excellent for structured data and teams that want flexible, inspectable matching logic.
+- **[PyJedAI](https://github.com/AI-team-UoA/pyJedAI)**  
+  Open-source toolkit implementing state-of-the-art entity resolution clustering and matching algorithms.
+- **[DeepMatcher](https://github.com/anhaidgroup/deepmatcher)**  
+  Deep learning-based entity matching library for more complex, semantic record linkage scenarios.
+- **[RudderStack dbt ID Resolution](https://github.com/rudderlabs/dbt-id-resolution)** and similar warehouse-native patterns  
+  Open examples and dbt projects for performing identity resolution directly inside the data warehouse using event and identify data.
+- **Neo4j Entity Resolution Examples & Graph Approaches**  
+  Graph-database patterns and community projects that model identity as connected nodes and relationships for resolution and analysis.
+- **Emerging Semantic / LLM-based Entity Resolution Frameworks** (e.g., SERF and related projects)  
+  Newer open-source efforts that apply embeddings and large language models to semantic entity resolution.
+- **Record Linkage and Blocking Libraries**  
+  Supporting open-source tools for candidate generation, string comparison, and evaluation that form building blocks of custom identity systems.
+- **c1v-id and lightweight identity resolvers**  
+  Focused open-source libraries designed for fast identity lookups in AI agents, CRM deduplication, and real-time matching scenarios.
+
+### Additional Strong Open-Source Options
+- Privacy-preserving and clean-room related open components that complement identity workflows.
+- First-party ID and publisher identity open initiatives (e.g., SharedID-style approaches).
+- Data quality and normalization libraries used as preprocessing steps before resolution.
+- Graph analytics and community detection algorithms applied to identity graphs.
+- Integration of open entity resolution engines with open CDP pipelines (RudderStack, Jitsu, Snowplow) for end-to-end first-party identity systems.
+
+**Frameworks for building custom systems**: Most sophisticated open implementations run **Splink** or **Zingg** (or a combination of blocking + matching libraries) on data inside a warehouse or Spark cluster, often orchestrated with dbt. The resulting unified IDs feed analytics, activation, and personalization layers. Teams with strong graph expertise may model identity relationships in Neo4j or similar stores. Full commercial-scale graphs still typically rely on proprietary data networks; open-source tools excel at resolving *your* first-party and known data.
+
+## How to Contribute
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Identity resolution platforms should be evaluated for match accuracy (deterministic vs probabilistic), graph coverage, privacy and consent compliance (GDPR, CCPA, etc.), real-time vs batch capabilities, transparency of matching logic, and total cost of ownership.
+- Open-source entity resolution tools give full control and auditability of matching models but require significant data engineering effort, high-quality input data, and ongoing tuning. They do not automatically provide the large third-party identity graphs offered by commercial providers.
 ---
-
-## 🌟 Overview & Ecosystem
-
-Welcome to **Awesome Crew Training Management** — an authoritative, SEO-indexed, and community-maintained ecosystem guide to **Aviation Training Management Systems (TMS)**, **Electronic Training Records (ETR)**, and **Flight Crew Compliance Software**.
-
-This repository curates production-ready **SaaS platforms** and flexible **open-source GitHub repositories** designed for:
-- 🧑‍✈️ **Airlines & Commercial Operators**: Pilot & cabin crew qualification tracking, Evidence-Based Training (EBT), Competency-Based Training & Assessment (CBTA), Flight Time Limitations (FTL), and recurrent training compliance.
-- 🏫 **Approved Training Organisations (ATOs) & Flight Schools**: Student syllabus tracking, instructor grading, booking/scheduling, aircraft dispatch records, and Part-FCL / Part 141 regulatory audits.
-- 🛩️ **Flying Clubs & General Aviation**: Pilot electronic logbooks, member currencies, medical/license expiry tracking, and aircraft maintenance airworthiness hours.
-- 🛡️ **Aviation Regulatory Compliance**: Automated audit trails for EASA, FAA, ICAO, CASA, UK CAA, and IOSA documentation standards.
-
----
-
-## 📑 Table of Contents
-
-- [✈️ SaaS & Hosted Platforms](#️-saashosted-platforms)
-- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-- [🌟 Additional Open-Source Solutions & Architecture](#-additional-open-source-solutions--architecture)
-- [🤝 How to Contribute](#-how-to-contribute)
-- [⚠️ Regulatory Disclaimer](#️-regulatory-disclaimer)
-- [⭐ Star History](#-star-history)
-
----
-
-## ✈️ SaaS & Hosted Platforms
-
-The table below catalogs premier commercial SaaS solutions for aviation crew training management, sorted in **descending order by company size / market valuation**:
-
-| Platform / Tool | 🎯 Focus / Description | 🏢 Company Size (Valuation / Revenue) | 💰 Starting Pricing | 🆓 Free Tier / Trial Limits |
-| :--- | :--- | :--- | :--- | :--- |
-| **[AeroDocs](https://www.aerodocs.com/)** | 📄 Enterprise aviation document management, operations manual distribution, and crew compliance tracking system for commercial airlines. | ~$2.5B Market Cap (Viasat enterprise aviation division ~$100M+) | Enterprise starting tier from ~$18,000 / year (base airline document & compliance distribution) | 30-day enterprise evaluation pilot (includes sample fleet manual library & 5 test crew licenses) |
-| **[Comply365](https://www.comply365.com/)** | 🛡️ Aviation compliance, mobile content delivery & electronic training records suite (**TrainingManager365** / incorporating MINT & Qualtero). | ~$300M+ (Valuation, backed by Insight Partners & Liberty Hall) | Enterprise starting tier from ~$15,000 / year (base airline / ATO qualification module) | 30-day guided POC trial for airline training departments (limited to 10 test crew accounts) |
-| **[LMS365 / Learn365](https://www.lms365.com/)** | 📚 Microsoft 365 & SharePoint native learning management platform tailored for aviation ground schools and crew recurrent safety training. | ~$175M (Est. Valuation / ~$30M ARR, Zensai) | $4.50 / user / month (billed annually, standard tier) | 30-day free trial on Microsoft AppSource (full course catalog & admin access; excludes native mobile/Teams add-on) |
-| **[Takeflite](https://www.takeflite.com/)** | 🛫 Comprehensive flight operations, crew rostering, charter management, and ATO student syllabus management platform. | ~$150M+ (Portside Group Valuation / ~$30M unit) | Starts at $500.00 / month (base module subscription; e.g., Distribution Plus / base ops module) | 14-day guided proof-of-concept trial (full access to core operational modules following fit call) |
-| **[Qualtero](https://www.qualtero.com/)** | 🎯 Advanced aviation training & qualification management system (**Fox TMS**), CBTA/EBT evaluation, grading engine, and FTL tracking. | ~$50M (Enterprise Division Valuation, acquired by Comply365) | Starts at ~$1,000 / month (~$12,000/year base deployment for ATOs/operators) | 30-day guided evaluation sandbox (limited to 10 instructor test accounts upon request) |
-| **[FlightLogger](https://www.flightlogger.net/)** | 📊 Modern all-in-one flight training management system for ATOs & flight academies with student progress, CBTA syllabi, scheduling, and billing. | ~$35M (Est. Valuation / ~$6M ARR) | €359.00 / month (starting base subscription for flight training organizations) | 14-day interactive evaluation sandbox (pre-loaded with sample fleet/student syllabi upon onboarding) |
-| **[Leon Training](https://www.leon.aero/)** | ⏱️ Flight operations & crew qualification platform for business aviation and operators, featuring currency monitoring and FTL audits. | ~$30M (Est. Valuation / ~$5M ARR) | €99.00 / active aircraft / month (BASIC tier) | 30-day free trial (1 full month with unlimited users, fleet setup, and FTL tracking; no credit card required) |
-| **[Avsoft](https://www.avsoft.com/)** | 🖥️ Pilot courseware provider offering interactive aircraft systems CBT (Airbus, Boeing, Embraer, ATR) and Portable Classroom LMS. | ~$20M (Est. Valuation / ~$4M ARR) | Starts at $59.00 / course (or flexible monthly installment plans for corporate ATOs) | 30-day free evaluation trial for ATOs and airlines (full courseware and LMS module access) |
-| **[Aviation eLearning](https://www.aviationelearning.com/)** | 🥽 Virtual 360 cockpit procedure trainers, online aviation ground school courses, and interactive procedure simulator systems. | ~$15M (Est. Valuation / ~$3M ARR) | €39.00 / course (pay-as-you-train individual modules; e.g., B737NG procedures) | 30-day free evaluation trial for V360E platform / course demo access (up to 5 trainee licenses) |
-| **[Hinfact](https://www.hinfact.com/)** | 🧠 Next-generation CBTA and Evidence-Based Training (EBT) system with electronic grading, instructor tablets, and simulator behavioral analytics. | ~$12M (Est. Valuation / Innovacom & Airbus Scale backed) | Starts at ~€199.00 / month (or €15 / pilot / month for ATO training modules) | 30-day guided evaluation sandbox for ATOs/airlines (with sample CBTA grading syllabus & instructor app access) |
-| **[Aviatize](https://www.aviatize.com/)** | ✈️ Cloud flight school and ATO management platform with student syllabus progression, maintenance planning, booking, and automated billing. | ~$8M (Est. Valuation / ~$1.5M ARR) | $29.00 / aircraft / month (billed annually, includes unlimited users) | 30-day guided free trial (unlimited student/instructor accounts following a 30-minute fit call) |
-| **[CrewLounge AERO](https://www.crewlounge.aero/)** | 📱 Pilot logbook (PILOTLOG), duty schedule synchronization (CONNECT), and flight attendant tracking suite (CrewLounge PRO). | ~$6M (Est. Valuation / ~$1.2M ARR) | Free forever tier; paid subscriptions start at €13.49 / year (CONNECT) or €39.99 / year (PILOTLOG Enterprise) | **Free Forever** (Student Edition: up to 100 flights, 60 official logbook formats, 50 reports) |
-
----
-
-## 💻 Open-Source GitHub Projects
-
-The list below features open-source repositories suitable for aviation ground schools, pilot logbooks, ATO workflows, and flight training record infrastructure, sorted in **descending order by GitHub star count**:
-
-- **[Moodle](https://github.com/moodle/moodle)** [![Stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers)  
-  🎓 The world's most widely adopted open-source LMS. Extensively configured by flight academies and ATOs for pilot ground school, SCORM/xAPI theoretical training, question banks, EASA/FAA test delivery, and compliance completion reports.
-
-- **[Canvas LMS](https://github.com/instructure/canvas-lms)** [![Stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers)  
-  🏫 Modern open-source LMS engine used by collegiate flight training programs and university aviation departments for structured syllabus sequencing, grading rubrics, and modular pilot course delivery.
-
-- **[Open edX](https://github.com/openedx/edx-platform)** [![Stars](https://img.shields.io/github/stars/openedx/edx-platform?style=social&color=white)](https://github.com/openedx/edx-platform/stargazers)  
-  🌐 Scalable open-source learning infrastructure deployed by major aerospace organizations and aviation universities for self-paced theoretical instruction, recurrent training delivery, and cohort tracking.
-
-- **[Chamilo LMS](https://github.com/chamilo/chamilo-lms)** [![Stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers)  
-  📱 Lightweight, mobile-ready open-source learning platform featuring integrated skill management, time-restricted examination engines, and automated credential generation for ATO ground schools.
-
-- **[FlightGear](https://github.com/FlightGear/flightgear)** [![Stars](https://img.shields.io/github/stars/FlightGear/flightgear?style=social&color=white)](https://github.com/FlightGear/flightgear/stargazers)  
-  🛩️ Sophisticated, extensible open-source flight simulation framework utilized globally in aerospace university laboratories, flight dynamics research, procedural training, and cockpit instrument evaluation.
-
-- **[Web Logbook](https://github.com/vsimakhin/web-logbook)** [![Stars](https://img.shields.io/github/stars/vsimakhin/web-logbook?style=social&color=white)](https://github.com/vsimakhin/web-logbook/stargazers)  
-  📘 Self-hosted pilot electronic flight logbook supporting EASA/FAA formats, PDF exports, interactive route mapping, automatic night-time computation, and pilot currency monitoring.
-
-- **[FlightClaw](https://github.com/jackculpan/flightclaw)** [![Stars](https://img.shields.io/github/stars/jackculpan/flightclaw?style=social&color=white)](https://github.com/jackculpan/flightclaw/stargazers)  
-  🔍 Flight telemetry capture and data extraction tool that logs, analyzes, and visualizes flight profiles, track vectors, and aircraft parameters for post-flight pilot debriefs and training reviews.
-
-- **[TravStats](https://github.com/Abrechen2/TravStats)** [![Stars](https://img.shields.io/github/stars/Abrechen2/TravStats?style=social&color=white)](https://github.com/Abrechen2/TravStats/stargazers)  
-  📊 Self-hosted flight log analytics engine providing interactive visual statistics on total flight hours, aircraft types flown, airfield visits, and duty performance metrics.
-
-- **[Pilot Logbook Flutter](https://github.com/ken340/pilot-logbook)** [![Stars](https://img.shields.io/github/stars/ken340/pilot-logbook?style=social&color=white)](https://github.com/ken340/pilot-logbook/stargazers)  
-  📱 Modern cross-platform offline-first pilot flight logbook application built with Flutter, featuring aircraft category logging, rating endorsements, and cloud data synchronization.
-
-- **[Aviation Compliance Checker](https://github.com/ashishjsharda/aviation-compliance-checker)** [![Stars](https://img.shields.io/github/stars/ashishjsharda/aviation-compliance-checker?style=social&color=white)](https://github.com/ashishjsharda/aviation-compliance-checker/stargazers)  
-  🛡️ Automated audit verification engine designed to validate pilot logbook records and aeronautical experience data against 14 CFR Part 61 and Part 141 regulatory minimums.
-
-- **[FlyMe](https://github.com/carstenfuchs/flyme)** [![Stars](https://img.shields.io/github/stars/carstenfuchs/flyme?style=social&color=white)](https://github.com/carstenfuchs/flyme/stargazers)  
-  🛩️ Open-source (MIT) online flight logbook and booking management software for flying clubs and ATOs, featuring aircraft reservations, pilot fee accounts, and fleet operational logs.
-
-- **[Manage2Soar](https://github.com/pietbarber/Manage2Soar)** [![Stars](https://img.shields.io/github/stars/pietbarber/Manage2Soar?style=social&color=white)](https://github.com/pietbarber/Manage2Soar/stargazers)  
-  🪂 Django-powered management platform for soaring clubs and flight training centres, supporting member credentials, flight logging, instructor duty rosters, and student pilot syllabi.
-
-- **[VATSIM Pilot Training Center](https://github.com/Vatsim-Scandinavia/pilot-training-center)** [![Stars](https://img.shields.io/github/stars/Vatsim-Scandinavia/pilot-training-center?style=social&color=white)](https://github.com/Vatsim-Scandinavia/pilot-training-center/stargazers)  
-  🎯 Structured pilot training portal and online exam administration system providing training records, practical exam workflows, and pilot certification tracking.
-
-- **[NinerLog](https://ninerlog.com/)**  
-  📋 Free, self-hostable pilot logbook platform supporting EASA/FAA rules, currency calculation, multi-license management, instructor digital signatures, and medical credential expiry tracking.
-
----
-
-## 🌟 Additional Open-Source Solutions & Architecture
-
-Aviation organizations frequently architect hybrid or self-hosted crew training management infrastructure by integrating multiple open components:
-
-1. **Integrated Ground School + Flight Hours Tracking**: Combine **Moodle** or **Canvas LMS** (for theoretical ground training and SCORM exam modules) with **Web Logbook** or **FlyMe** (for practical flight hour logging and instructor signoffs).
-2. **Electronic Training Records (ETR)**: Deploy customized relational database forms (PostgreSQL / Django / Supabase) mapped directly to EASA Part-FCL or FAA Part 141 syllabus lesson items and grading scales.
-3. **Automated Currency & Compliance Audits**: Utilize scripts and CI/CD audit tools like **Aviation Compliance Checker** to automate 90-day passenger currency, night takeoff/landing checks, and instrument rating proficiency expiration alerts.
-4. **Simulator Telemetry Debriefs**: Feed flight simulation data from **FlightGear** or X-Plane/MSFS into telemetry extractors like **FlightClaw** for objective pilot debriefing and flight performance metrics.
-
----
-
-## 🤝 How to Contribute
-
-Contributions from training managers, ATO administrators, airline pilots, and open-source developers are warmly welcome!
-
-1. 🍴 **Fork the repository** on GitHub.
-2. 🌿 **Create a feature branch**: `git checkout -b add-new-training-tool`
-3. 📝 **Add your entry** in `README.md` following the exact table/list format:
-   - For SaaS tools: Include Platform Name, Website Link, Focus/Description, Company Size (Valuation/Revenue), Starting Pricing, and specific Free Tier/Trial Limits. Insert in the correct sorted order.
-   - For Open-Source projects: Include Repo Name, GitHub Link, Stargazers Star Badge, and Description. Insert in the correct star-sorted order.
-4. 🚀 **Submit a Pull Request** with a concise summary of the addition.
-
-⭐ **Star the repo** if you find it helpful for your aviation training workflows!
-
----
-
-## ⚠️ Regulatory Disclaimer
-
-- This repository is a **community-curated index** for informational and educational purposes — it does not constitute an endorsement or regulatory approval.
-- Aviation training management systems and Electronic Training Records (ETR) must comply with applicable aviation authority standards (e.g., EASA Part-FCL / Part-ORA, FAA 14 CFR Part 61/121/135/141, ICAO Doc 9868 CBTA/EBT, and IOSA requirements).
-- Operators and ATOs deploying self-hosted or open-source software are solely responsible for ensuring data integrity, digital signature legality, audit logs, backup redundancy, and compliance authorization from their respective National Aviation Authority (NAA).
-
----
-
-## ⭐ Star History
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Crew-Training-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Crew-Training-Management&type=date&legend=top-left)
-
----
-
-<p align="center">
-  <sub>Made with ✈️ for training captains, ATO heads of training, flight instructors, and aviation software engineers seeking transparent and dependable crew training infrastructure.</sub>
-</p>
+**Made for data engineers, identity architects, CDP teams, and privacy-conscious organizations that want transparent, controllable identity resolution infrastructure.**
+Let's make customer identity graphs and entity resolution more open, inspectable, and free from black-box proprietary matching.
