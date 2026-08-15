@@ -1,84 +1,105 @@
-<div align="center">
-<img src="assets/banner.svg" alt="Awesome-CPQ Banner" width="100%">
-<br>
+# Awesome-Crew-Training-Management
 
-<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+## Top Crew Training Management Tools Ecosystem
 
-# Awesome-CPQ
-</div>
+**Curated List of SaaS Products & Open-Source GitHub Projects**
 
-## 🚀 Top CPQ Tools Ecosystem
-**A Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Configure-Price-Quote, Product Configuration, Guided Selling, Pricing Rules & Quote Generation*
+*Focused on Aviation Crew Training Records, Pilot/ATO Training Management, Compliance Tracking, LMS for Flight Training & Electronic Training Records*
+
 **Last updated: August 2026**
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **CPQ (Configure, Price, Quote)**. These tools enable sales teams, manufacturers, and solution providers to configure complex products, apply dynamic pricing and discount rules, generate accurate proposals/quotes, and streamline the path from opportunity to order while reducing errors and sales cycle time.
 
-**Examples** include Salesforce CPQ, Conga CPQ, Oracle CPQ, DealHub, Logik.io, PROS Smart CPQ, Experlogix, Configure One, Epicor CPQ, and Tacton (the category leaders and widely adopted solutions).
 
-**Open-source emphasis**: This section is heavily expanded with every major active project and framework for self-hosting, product configuration engines, quote generation, pricing infrastructure, and integration with open ERPs/CRMs — ideal for manufacturers, MSPs, custom solution providers, and companies seeking full control over configuration logic and pricing rules without proprietary lock-in.
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Crew Training Management** in aviation. These tools help airlines, Approved Training Organisations (ATOs), flight schools, and operators manage pilot and cabin crew training records, syllabi, scheduling, competency-based training (CBTA/EBT), e-learning, currency tracking, and regulatory compliance (EASA, FAA, and other authorities).
+
+
+
+**Examples** include Qualtero, Takeflite, FlightLogger, LMS365 Aviation, Aviation eLearning, CrewLounge, Avsoft, Comply365, AeroDocs, and Leon Training (the category leaders and widely used platforms).
+
+
+
+**Open-source emphasis**: Dedicated full-featured open-source aviation crew training management systems are limited. This section highlights the strongest available open-source pilot logbooks, adaptable LMS platforms, club/ATO management tools, and related projects that organisations can self-host and customise for training records and compliance workflows.
+
+
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites / GitHub repos.
 
-## 📋 Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+
+
+## Table of Contents
+
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
+- [Star History](#star-history)
 
-## 🏢 SaaS/Hosted Platforms
-| Product | Description | Est. Valuation / Size | Pricing | Free Tier Limit |
-|---------|-------------|-----------------------|---------|-----------------|
-| **[Oracle CPQ](https://www.oracle.com/cx/sales/cpq/)** | Enterprise-grade Configure-Price-Quote solution within Oracle CX, supporting complex configurations, multi-channel selling, and deep ERP integration. | ~$350B (Market Cap) | ~$130/user/month (estimated) | Unlimited days Practice Environments (Partners/Customers) |
-| **[Salesforce CPQ](https://www.salesforce.com/products/cpq/overview/)** (part of Revenue Cloud) | Leading native CPQ solution tightly integrated with Salesforce CRM for product configuration, guided selling, pricing rules, approvals, and quote-to-cash automation. | ~$250B (Market Cap) | ~$200/user/month | Unlimited days Developer Edition Org |
-| **[Epicor CPQ](https://www.epicor.com/)** | CPQ tailored for complex configurable products, offering 3D/AR visualization, CAD drawings, automatic BOMs, and multi-channel quoting. | ~$4.7B (Valuation) | ~$150/user/month | Free guided demo only |
-| **[Conga CPQ](https://conga.com/)** | Robust CPQ platform focused on complex product configuration, document generation, and revenue lifecycle management with strong Salesforce and Microsoft integrations. | ~$3.0B (Valuation) | ~$35/user/month (estimated) | Unlimited days Training Orgs |
-| **[PROS Smart CPQ](https://pros.com/)** | AI-powered CPQ and pricing optimization platform that combines configuration, dynamic pricing, and deal guidance. | ~$1.0B (Market Cap) | ~$65/user/month (estimated) | Tailored demo environment only |
-| **[DealHub](https://dealhub.io/)** | Modern CPQ and revenue platform emphasizing speed, guided selling, interactive proposals, and deal desk collaboration. | ~$500M (Est. Valuation) | ~$50/user/month (estimated) | Negotiated Proof-of-Concept Trial |
-| **[Tacton](https://www.tacton.com/)** | Constraint-based CPQ platform known for handling highly complex product configuration and manufacturing integration. | ~$400M (Est. Valuation) | ~$100/user/month (estimated) | Tailored demo environment only |
-| **[Logik.io](https://www.logik.io/)** | Cloud-native CPQ designed for complex product configuration with a visual rules engine and strong focus on manufacturability and accuracy. | ~$200M (Est. Valuation) | ~$1,500/month (estimated) | Monthly Training Sessions Sandbox |
-| **[Experlogix](https://www.experlogix.com/)** | Flexible CPQ solution supporting complex configurable products, visual configuration, and integration with major CRM/ERP systems. | ~$150M (Est. Valuation) | ~$40/user/month (estimated) | Interactive web-based guided demos only |
-| **[Configure One](https://www.configureone.com/)** | Specialist CPQ for manufacturers of complex, engineered-to-order products with strong CAD and BOM generation capabilities. | ~$100M (Est. Valuation) | ~$150/user/month | Tailored demo environment only |
-| **[Cincom CPQ](https://www.cincom.com/)** | Established solution for complex selling environments with configuration, pricing, and proposal automation. | ~$100M (Est. Valuation) | ~$50,000 one-time implementation | Tailored interactive demo only |
-| **[Hive CPQ](https://www.hivecpq.com/)** | User-friendly CPQ focused on manufacturers, with 3D configuration, real-time pricing, and error-free quote generation. | ~$50M (Est. Valuation) | ~€1,500/month | 30-day Free Trial (Dedicated Sandbox) |
 
-## 💻 Open-Source GitHub Projects
-- **[Odoo Community](https://github.com/odoo/odoo)** [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
-  Popular open-core ERP/CRM platform. Community edition plus available modules support product variants, pricing, quotations, and sales workflows; many organizations extend it into full CPQ solutions.
-- **[Medusa](https://github.com/medusajs/medusa)** [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
-  Highly customizable open-source headless commerce platform. Excellent for building modern CPQ frontends and custom product configuration logic.
-- **[Saleor](https://github.com/saleor/saleor)** [![Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)  
-  GraphQL-first headless e-commerce platform that can handle complex product catalogs and can be integrated into custom configuration workflows.
-- **[ERPNext](https://github.com/frappe/erpnext)** [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
-  Fully open-source (GPL) ERP with strong product configuration, pricing rules, quotation, sales order, and BOM capabilities. Ideal foundation for building custom CPQ workflows.
-- **[Twenty](https://github.com/twentyhq/twenty)** [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
-  Modern open-source CRM that includes robust opportunity management and quoting potential, frequently used as the front-end layer for custom CPQ.
-- **[Vendure](https://github.com/vendure-ecommerce/vendure)** [![Stars](https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social&color=white)](https://github.com/vendure-ecommerce/vendure/stargazers)  
-  Headless GraphQL e-commerce framework built on Node.js. Supports highly configurable products and custom quoting flows.
-- **[Lotus](https://github.com/uselotus/lotus)** [![Stars](https://img.shields.io/github/stars/uselotus/lotus?style=social&color=white)](https://github.com/uselotus/lotus/stargazers)  
-  Open-source pricing and packaging infrastructure that supports usage-based, seat-based, and complex subscription models.
-- **[SuiteCRM](https://github.com/salesagility/SuiteCRM)** [![Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers)  
-  Leading open-source CRM that includes quoting, product catalogs, and opportunity management.
-- **[Flexprice](https://github.com/flexprice/flexprice)** [![Stars](https://img.shields.io/github/stars/flexprice/flexprice?style=social&color=white)](https://github.com/flexprice/flexprice/stargazers)  
-  Open-source (AGPL) usage-based pricing, metering, and billing platform that can be self-hosted. Complements CPQ by handling sophisticated pricing logic.
-- **[Oreko](https://github.com/orekoapp/oreko)** [![Stars](https://img.shields.io/github/stars/orekoapp/oreko?style=social&color=white)](https://github.com/orekoapp/oreko/stargazers)  
-  Open-source (AGPL) self-hosted visual quote and invoice builder with a modern block-based editor. Strong for professional services.
-- **[openCPQ](https://github.com/webXcerpt/openCPQ)** [![Stars](https://img.shields.io/github/stars/webXcerpt/openCPQ?style=social&color=white)](https://github.com/webXcerpt/openCPQ/stargazers)  
-  Mature open-source (MIT) JavaScript library for building in-browser product configurators and CPQ functionality. Provides reusable building blocks.
-- **[SwiftCPQ](https://github.com/christopher-talke/SwiftCPQ)** [![Stars](https://img.shields.io/github/stars/christopher-talke/SwiftCPQ?style=social&color=white)](https://github.com/christopher-talke/SwiftCPQ/stargazers)  
-  Open-source (AGPL-3.0) vendor-agnostic proposal and quote generation tool designed as an accessible alternative to proprietary MSP/IT quoting platforms.
-- **[CPyQ](https://github.com/delliott0000/CPyQ)** [![Stars](https://img.shields.io/github/stars/delliott0000/CPyQ?style=social&color=white)](https://github.com/delliott0000/CPyQ/stargazers)  
-  Early-stage open-source Python-based CPQ platform with client/server architecture, WebSocket state synchronization, and extensibility.
 
-### 🌟 Additional Strong Open-Source Options
-- Community product configurator modules and constraint engines built on top of **Odoo** or **ERPNext**.
-- AI-assisted quote systems and rule engines (various GitHub projects using LLMs + structured product data).
-- **Dolibarr** for simpler open-source quoting and sales document generation.
-- Custom constraint solvers and configuration engines implemented with open-source rule engines or Prolog-style systems.
+## SaaS/Hosted Platforms
 
-**Frameworks for building custom systems**: Combine **openCPQ** (browser configuration) or constraint engines with **ERPNext** / **Odoo Community** for product masters, pricing, quoting, and order management, plus **Lotus** or **Flexprice** for advanced pricing logic, and an open-source CRM (**Twenty** / **SuiteCRM**) for the sales process — creating a fully owned, extensible CPQ stack.
+| Platform / Tool | Focus / Description | Starting Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Qualtero](https://www.qualtero.com/)** | Aviation training and qualification management platform (Fox TMS, CBTA/EBT grading, FTL, and regulatory compliance). | Starts at ~$1,000 / month (~$12,000/year base deployment for ATOs/operators) | 30-day guided evaluation sandbox (limited to 10 instructor test accounts upon request) |
+| **[Takeflite](https://www.takeflite.com/)** | Flight operations and training management software for regional carriers and ATOs (scheduling, crew rosters, and compliance). | Starts at $500.00 / month (base module subscription; e.g. Distribution Plus / base ops module) | 14-day guided proof-of-concept trial (full access to core operational modules following fit call) |
+| **[FlightLogger](https://www.flightlogger.net/)** | All-in-one training management platform for flight schools & ATOs (student progress, CBTA syllabi, booking, and records). | €359.00 / month (starting base subscription for flight training organizations) | 14-day interactive evaluation sandbox (pre-loaded with sample fleet/student syllabi upon onboarding) |
+| **[LMS365 / Learn365](https://www.lms365.com/)** | Microsoft 365 & SharePoint integrated LMS adapted for aviation ground school, compliance tracking, and crew recurrent training. | $4.50 / user / month (billed annually, standard tier) | 30-day free trial on Microsoft AppSource (full course catalog & admin access; excludes native mobile/Teams add-on) |
+| **[Aviation eLearning](https://www.aviationelearning.com/)** | Aviation e-learning, cockpit procedure trainers, and virtual 360 courseware for pilot and crew training. | €39.00 / course (pay-as-you-train individual modules; e.g., B737NG procedures) | 30-day free evaluation trial for V360E platform / course demo access (up to 5 trainee licenses) |
+| **[CrewLounge AERO](https://www.crewlounge.aero/)** | Crew suite for pilot logbooks, duty tracking, roster integration, and qualification monitoring. | Free forever tier; paid subscriptions start at €13.49 / year (CONNECT) or €39.99 / year (PILOTLOG Enterprise) | **Free Forever** (Student Edition: up to 100 flights, 60 official logbook formats, 50 reports) |
+| **[Avsoft](https://www.avsoft.com/)** | Aviation training courseware provider offering aircraft systems CBT, general subjects, and portable classroom LMS. | Starts at $59.00 / course (or flexible monthly installment plans for corporate ATOs) | 30-day free evaluation trial for ATOs and airlines (full courseware and LMS module access) |
+| **[Comply365](https://www.comply365.com/)** | Aviation compliance & electronic training records (ETR) suite (TrainingManager365 / former MINT) for airlines and defense. | Enterprise starting tier from ~$15,000 / year (base airline / ATO qualification module) | 30-day guided POC trial for airline training departments (limited to 10 test crew accounts) |
+| **[AeroDocs](https://www.aerodocs.com/)** | Aviation document management and compliance tracking system for flight operations and crew compliance manuals. | Enterprise starting tier from ~$18,000 / year (base airline document & compliance distribution) | 30-day enterprise evaluation pilot (includes sample fleet manual library & 5 test crew licenses) |
+| **[Leon Training](https://www.leon.aero/)** | Flight operations & crew training management platform for business aviation and operators (currency tracking and FTL). | €99.00 / active aircraft / month (BASIC tier) | 30-day free trial (1 full month with unlimited users, fleet setup, and FTL tracking; no credit card required) |
+| **[Aviatize](https://www.aviatize.com/)** | Cloud flight school and ATO management platform with student syllabus tracking, scheduling, and billing. | $29.00 / aircraft / month (billed annually, includes unlimited users) | 30-day guided free trial (unlimited student/instructor accounts following a 30-minute fit call) |
+| **[Hinfact](https://www.hinfact.com/)** | Competency-Based Training & Assessment (CBTA) and Evidence-Based Training (EBT) e-grading and analytics platform. | Starts at ~€199.00 / month (or €15 / pilot / month for ATO training modules) | 30-day guided evaluation sandbox for ATOs/airlines (with sample CBTA grading syllabus & instructor app access) |
 
-## 🤝 How to Contribute
+
+
+## Open-Source GitHub Projects
+
+- **[NinerLog](https://ninerlog.com/)**  
+  Free, open-source pilot logbook supporting EASA/FAA rules, currency tracking, multi-license management, instructor signing, credentials/medicals expiry, and self-hosting. Strong foundation for individual and club-level training record keeping.
+
+- **[Moodle](https://github.com/moodle/moodle)**  
+  The most widely deployed open-source LMS. Frequently adapted by flight schools and ATOs for theoretical training, SCORM content, exams, and completion tracking. Highly configurable for aviation syllabi and compliance reporting.
+
+- **[FlyMe](https://github.com/carstenfuchs/flyme)**  
+  Open-source (MIT) online logbook and management software for private pilots, flying clubs, and associations. Supports pilot/aircraft logbooks, reservations, fees, and club operations.
+
+- **[VATSIM Pilot Training Center](https://github.com/Vatsim-Scandinavia/pilot-training-center)**  
+  Open-source pilot training management system (originally for VATSIM) that provides structured training workflows, records, and administration — useful reference or starting point for custom training centres.
+
+- **[SmartOPS](https://smartops.aero/)** (Odoo-based open aviation modules)  
+  Open-source aviation management modules built on Odoo, covering flight operations and related records that can be extended for training and crew qualification tracking.
+
+- **[Manage2Soar](https://github.com/pietbarber/Manage2Soar)**  
+  Django-based open-source platform for soaring clubs and similar organisations, including member management, flight logging, instructor workflows, duty rosters, and training-related records.
+
+- **Open edX / Canvas LMS Community / Chamilo**  
+  Mature open-source learning platforms that organisations configure for aviation ground school, recurrent training content, and certification tracking.
+
+- **Simple Aircraft Manager and related fleet tools**  
+  Open-source aircraft and component tracking projects that complement training systems by maintaining airworthiness and utilisation data linked to training flights.
+
+- **Drone / UAV Training Platforms** (community projects)  
+  Emerging open-source platforms for theoretical + practical drone pilot training that share architectural patterns with manned aviation training management.
+
+
+
+### Additional Strong Open-Source Options
+
+- Custom electronic training record (ETR) systems built on open databases + forms for syllabus tracking and competency grading.
+- Integration of open pilot logbooks with open LMS platforms for a combined theory + flight training record.
+- SCORM/xAPI content players and question-bank tools that feed into Moodle or similar LMS instances.
+- Club and association management systems that include instruction and qualification modules.
+- Reporting scripts and dashboards that produce audit-ready training summaries from open data sources.
+
+**Frameworks for building custom systems**: Many smaller ATOs and clubs combine **NinerLog** or **FlyMe** for flight/training records with **Moodle** (or another open LMS) for theoretical content and exams, then add scheduling via open calendar tools or lightweight custom modules. Larger organisations often extend **Odoo/SmartOPS**-style platforms or build on open LMS foundations with aviation-specific plugins and compliance reporting.
+
+
+
+## How to Contribute
+
 1. Fork the repo.
 2. Add/edit entries in `README.md` (follow existing format).
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
@@ -86,13 +107,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 Star the repo if you find it useful!
 
-## ⚠️ Disclaimer
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- CPQ tools should be evaluated for configuration complexity handling, pricing rule expressiveness, quote accuracy, approval workflows, ERP/CRM integration quality, and long-term maintainability of product models.
-- Self-hosted open-source solutions require solid product data modeling, rule testing, security hardening, and ongoing maintenance of configuration logic.
----
-**Made for sales operations, solution engineers, manufacturers of complex products, MSPs, and anyone who wants open, controllable, and cost-effective Configure-Price-Quote capabilities.**
-Let's make product configuration and quoting more open, transparent, and free from proprietary lock-in.
 
-## ⭐ Star History
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-CPQ&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-CPQ&type=date&legend=top-left)
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Aviation crew training tools must support applicable regulatory requirements (EASA Part-FCL/ATO, FAA Part 141/61/121/135, CBTA/EBT, IOSA, etc.). Open-source solutions typically require configuration, validation, and often pairing with approved content or processes to achieve audit readiness.
+- Always verify that any system used for official training records meets your authority’s documentation and data-integrity expectations. Self-hosted tools place full responsibility for security, backups, and compliance evidence on the operator.
+
+---
+
+**Made for training managers, ATO administrators, flight school operators, airline training departments, and anyone seeking more transparent and controllable crew training infrastructure.**
+
+Let's make pilot and crew training records, compliance tracking, and aviation LMS capabilities more open, adaptable, and free from vendor lock-in.
+
+## Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Crew-Training-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Crew-Training-Management&type=date&legend=top-left)
