@@ -20,13 +20,13 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites / GitHub repos.
 
-## 📑 Table of Contents
+## 📋 Table of Contents
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
-## 💼 SaaS/Hosted Platforms
+## 🏢 SaaS/Hosted Platforms
 | Product | Description | Est. Valuation / Size | Pricing | Free Tier Limit |
 |---------|-------------|-----------------------|---------|-----------------|
 | **[Oracle CPQ](https://www.oracle.com/cx/sales/cpq/)** | Enterprise-grade Configure-Price-Quote solution within Oracle CX, supporting complex configurations, multi-channel selling, and deep ERP integration. | ~$350B (Market Cap) | ~$130/user/month (estimated) | Unlimited days Practice Environments (Partners/Customers) |
@@ -42,7 +42,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[Cincom CPQ](https://www.cincom.com/)** | Established solution for complex selling environments with configuration, pricing, and proposal automation. | ~$100M (Est. Valuation) | ~$50,000 one-time implementation | Tailored interactive demo only |
 | **[Hive CPQ](https://www.hivecpq.com/)** | User-friendly CPQ focused on manufacturers, with 3D configuration, real-time pricing, and error-free quote generation. | ~$50M (Est. Valuation) | ~€1,500/month | 30-day Free Trial (Dedicated Sandbox) |
 
-## 🛠️ Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 - **[Odoo Community](https://github.com/odoo/odoo)** [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
   Popular open-core ERP/CRM platform. Community edition plus available modules support product variants, pricing, quotations, and sales workflows; many organizations extend it into full CPQ solutions.
 - **[Medusa](https://github.com/medusajs/medusa)** [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
