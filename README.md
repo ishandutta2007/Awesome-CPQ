@@ -162,4 +162,25 @@ Contributions from identity architects, data engineers, privacy researchers, and
 
 <p align="center">
   <sub>Made with 🔗 for data engineers, identity architects, CDP teams, and privacy-conscious organizations seeking transparent and reliable identity resolution infrastructure.</sub>
-</p>
+</p>## ☁️ SaaS/Hosted Platforms
+
+
+
+
+## 🔓 Open-Source GitHub Projects
+- **[visitormanagement](https://github.com/neozhu/visitormanagement)** [![GitHub stars](https://img.shields.io/github/stars/neozhu/visitormanagement?style=social&color=white)](https://github.com/neozhu/visitormanagement/stargazers)  
+  Open-source systems for digital registration, entry/exit tracking, and campus or institutional visitor logging with modern web UIs.
+- **[Django-Visitor-Management-System](https://github.com/shubhamkumar27/Django-Visitor-Management-System)** [![GitHub stars](https://img.shields.io/github/stars/shubhamkumar27/Django-Visitor-Management-System?style=social&color=white)](https://github.com/shubhamkumar27/Django-Visitor-Management-System/stargazers)  
+  A standard implementation of a VMS using the popular Python Django framework.
+- **[frontdesk](https://github.com/prodstarter/frontdesk)** [![GitHub stars](https://img.shields.io/github/stars/prodstarter/frontdesk?style=social&color=white)](https://github.com/prodstarter/frontdesk/stargazers)  
+  Open-source visitor management system built with Laravel and Filament PHP. Supports digital check-ins, visitor data management, customizable workflows, and real-time tracking — designed as a modern self-hosted alternative.
+- **[EasyVisit](https://github.com/ozzi-/EasyVisit)** [![GitHub stars](https://img.shields.io/github/stars/ozzi-/EasyVisit?style=social&color=white)](https://github.com/ozzi-/EasyVisit/stargazers)  
+  Self-hosted digital visitor list and check-in system with tablet support, badge generation, notifications (email/SMS), recurring visitor fast check-in, statistics, and customization options.
+- **[people-registry](https://github.com/Codefor-Future/people-registry)** [![GitHub stars](https://img.shields.io/github/stars/Codefor-Future/people-registry?style=social&color=white)](https://github.com/Codefor-Future/people-registry/stargazers)  
+  Vue.js "contactless" visitor tracking system that uses QR codes. Visitors scan the code to register their details.
+- **[VisitorPortal](https://github.com/P0etInc0de/VisitorPortal)** [![GitHub stars](https://img.shields.io/github/stars/P0etInc0de/VisitorPortal?style=social&color=white)](https://github.com/P0etInc0de/VisitorPortal/stargazers)  
+  Open-source Laravel-based visitor management portal featuring pre-registration, reception check-in/out, PDF badge printing, welcome displays, notifications, and role-based access control.
+- **[Visitor-Management](https://github.com/FALLEN-01/Visitor-Management)** [![GitHub stars](https://img.shields.io/github/stars/FALLEN-01/Visitor-Management?style=social&color=white)](https://github.com/FALLEN-01/Visitor-Management/stargazers)  
+  Python (Flask), MySQL, HTML/CSS/JS VMS offering real-time check-in/out, ID verification, badge printing, host notifications, and reporting.
+
+
