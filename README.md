@@ -1,186 +1,103 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Awesome Identity Resolution Platform Banner" width="100%" />
-</p>
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Referral Marketing Banner" />
+</div>
 
-# Awesome Identity Resolution Platform 🔗 👤 🌐
-
+# Awesome Referral Marketing Platform
 <p align="center">
-  <b>Curated Directory of SaaS Customer Data Platforms &amp; Open-Source Entity Resolution Frameworks for Customer Identity Graphs, Deterministic &amp; Probabilistic Matching, Cross-Device Tracking, Unified Profiles &amp; Record Linkage</b>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Identity-Resolution-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Resolution-Platform?style=social" alt="GitHub Stars"/></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Identity-Resolution-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-Resolution-Platform?style=social" alt="GitHub Forks"/></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Identity-Resolution-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
----
+## Top Referral Marketing Platforms Ecosystem ??
+**Curated List of SaaS Products & Open-Source GitHub Projects**
+*Focused on Customer Referral Programs, Affiliate Tracking, Viral Growth & Reward Automation*
+**Last updated: August 2026**
 
-## 🧭 Overview & Architecture Ecosystem
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Referral Marketing**. These tools help businesses launch, track, and scale refer-a-friend programs, affiliate networks, and viral growth campaigns — automating attribution, rewards, fraud prevention, and payouts. ??
 
-Welcome to **Awesome Identity Resolution Platform** — the authoritative, SEO-indexed, and community-maintained ecosystem guide to **Identity Resolution (IDR)**, **Customer Identity Graphs**, **Entity Resolution (ER)**, **Record Linkage**, and **Customer 360 Infrastructure**.
+**Examples** include ReferralCandy, Friendbuy, Talkable, Extole, Viral Loops, GrowSurf, InviteReferrals, Referral Rock, FirstPromoter, Rewardful, Mention Me, Ambassador, SaaSquatch, and Referral Factory (the category leaders).
 
-In a cookieless, privacy-regulated, and multi-device digital ecosystem, businesses face extreme data fragmentation across CRMs, website clicks, mobile apps, offline point-of-sale (POS), email marketing, and data clean rooms. **Identity Resolution tools** stitch together first-party identifiers (emails, hashed PII, phone numbers), pseudo-identifiers (MAIDs, IP addresses, canvas fingerprints, third-party IDs), and offline customer records into a single **Deterministic or Probabilistic Golden Customer Record**.
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom reward logic, Stripe/Paddle integrations, and full data ownership — ideal for SaaS founders, e-commerce brands, developers, and companies building transparent, vendor-lock-in-free growth systems. ??
 
-This repository tracks:
-- 🏢 **Enterprise SaaS & Data Bureau Platforms**: Full-scale commercial identity graphs, Customer Data Platforms (CDPs), clean room identity translation (RampID, InfoBase, TruAudience), and real-time streaming IDSync engines.
-- 💻 **Open-Source Record Linkage & Entity Resolution Engines**: High-performance mathematical frameworks (Fellegi-Sunter models, machine learning active learning, deep neural matching, and dbt warehouse-native SQL graphs) for building transparent, inspectable in-house identity pipelines inside Snowflake, BigQuery, Databricks, DuckDB, or Spark clusters.
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites. ??
 
----
+## Table of Contents ??
+- [SaaS/Hosted Platforms](#saashosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-## 📑 Table of Contents
-- [🏢 SaaS & Hosted Identity Platforms](#-saas--hosted-identity-platforms)
-- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-- [🌟 In-Warehouse & Graph Approaches](#-in-warehouse--graph-approaches)
-- [🤝 How to Contribute](#-how-to-contribute)
-- [⚠️ Evaluation Disclaimer](#️-evaluation-disclaimer)
-- [⭐ Star History](#-star-history)
+## SaaS/Hosted Platforms
 
----
+| Platform | Description | Pricing | Free Tier / Trial | Estimated Revenue/Valuation |
+|---|---|---|---|---|
+| **[Mention Me](https://www.mention-me.com/)** | AI-powered referral and micro-influencer platform popular in retail/EU markets, emphasizing name-sharing technology and data-driven advocate journeys. | Enterprise Quote (Bespoke revenue-based pricing) | No free tier or trial | ~+ ARR |
+| **[Extole](https://www.extole.com/)** | Enterprise advocate marketing platform supporting referral, influencer, and brand ambassador programs with advanced fraud detection, compliance, and multi-channel campaigns. | Starting at $999/month | No free tier or trial | ~+ ARR |
+| **[Friendbuy](https://www.friendbuy.com/)** | Enterprise-grade referral, loyalty, and influencer platform focused on DTC and mid-market brands with strong A/B testing, segmentation, and multi-channel sharing. | Starting at ~/month (Starter plan) | No free tier or trial | ~+ ARR |
+| **[Ambassador](https://www.getambassador.com/)** | Enterprise referral and partner automation platform that turns customers, affiliates, and influencers into advocates with multi-channel tracking and dashboards. | Starting at ~/month | No free tier or trial | ~+ ARR |
+| **[Talkable](https://www.talkable.com/)** | Conversion-optimized referral marketing platform specializing in personalized experiences, testing, and high-ROI advocate programs for retail and e-commerce. | Starting at ~,000/year (~,166/month) | No free tier or trial | ~+ ARR |
+| **[SaaSquatch](https://www.saasquatch.com/)** | Sophisticated referral and growth automation platform (now part of impact.com/advocate) for SaaS/subscription companies, with deep product integration and flexible rewards. | Starting at ~/month | No free tier or trial | ~+ ARR |
+| **[ReferralCandy](https://www.referralcandy.com/)** | Leading e-commerce referral and affiliate platform with deep Shopify/WooCommerce/BigCommerce integrations, automated rewards (cash, discounts, store credit), and success-fee pricing. | Starting at ~/month + success fee | 7-day free trial | ~+ ARR |
+| **[FirstPromoter](https://firstpromoter.com/)** | All-in-one affiliate and referral tracking platform purpose-built for SaaS and subscription businesses, with Stripe/Paddle sync, recurring commissions, and automated payouts. | Starting at $49/month | 14-day free trial | ~+ ARR |
+| **[Referral Rock](https://referralrock.com/)** | Flexible mid-market referral software with strong automation, integrations (HubSpot, Salesforce, Zapier), and advisor support for service, e-commerce, and B2B programs. | Starting at ~/month | 14 to 30-day free trial (1 program & 5 members limit) | ~+ ARR |
+| **[Viral Loops](https://viral-loops.com/)** | Template-driven referral platform modeled on successful campaigns (Dropbox, Harry’s, Robinhood) for waitlists, milestone rewards, giveaways, and SaaS/newsletter growth. | Starting at $35/month | 14-day free trial (Up to 10 participants limit) | ~+ ARR |
+| **[Referral Factory](https://referral-factory.com/)** | No-code referral program builder with extensive templates, white-label options, and high-volume campaign support for businesses of all sizes. | Starting at $200/month | 15-day free trial | ~+ ARR |
+| **[Rewardful](https://www.rewardful.com/)** | Lightweight, Stripe-native affiliate and referral software designed for SaaS founders who want fast setup, coupon tracking, and recurring commissions. | Starting at $49/month | 14-day free trial | ~+ ARR |
+| **[GrowSurf](https://growsurf.com/)** | API-first, developer-friendly referral software built for SaaS and tech companies, with embeddable widgets, leaderboards, and participant-based scaling. | Starting at $125/month | 14-day free trial | ~+ ARR |
+| **[InviteReferrals](https://www.invitereferrals.com/)** | Multi-channel referral and affiliate platform supporting flexible rewards, campaigns, and integrations for e-commerce and digital businesses. | Starting at $79/month | 14-day free trial (Up to 100 new referrers limit) | ~+ ARR |
 
-## 🏢 SaaS & Hosted Identity Platforms
+## Open-Source GitHub Projects
 
-The table below catalogs premier commercial Customer Data Platforms (CDPs), data bureaus, and identity resolution SaaS vendors, sorted in **descending order by company size (market valuation / revenue)**:
+- **[Dub](https://github.com/dubinc/dub)** [![Stars](https://img.shields.io/github/stars/dubinc/dub?style=social&color=white)](https://github.com/dubinc/dub/stargazers)  
+  Popular open-source link attribution platform (open-core) powering short links, conversion tracking, and affiliate/partner programs. Used by major teams; supports self-hosting with powerful analytics and partner features. AGPLv3 (core).
+- **[BranchMetrics iOS SDK](https://github.com/BranchMetrics/ios-branch-deep-linking-attribution)** [![Stars](https://img.shields.io/github/stars/BranchMetrics/ios-branch-deep-linking-attribution?style=social&color=white)](https://github.com/BranchMetrics/ios-branch-deep-linking-attribution/stargazers)  
+  The Branch iOS SDK for deep linking and attribution. Branch helps mobile apps grow with deep links that power paid acquisition and re-engagement campaigns, referral programs, and more.
+- **[Job Application Bot by Ollama AI](https://github.com/lookr-fyi/job-application-bot-by-ollama-ai)** [![Stars](https://img.shields.io/github/stars/lookr-fyi/job-application-bot-by-ollama-ai?style=social&color=white)](https://github.com/lookr-fyi/job-application-bot-by-ollama-ai/stargazers)  
+  End-to-end job agent that includes referrals from hiring managers - 100% hands-free.
+- **[Weferral](https://github.com/WeferralHq/weferral)** [![Stars](https://img.shields.io/github/stars/WeferralHq/weferral?style=social&color=white)](https://github.com/WeferralHq/weferral/stargazers)  
+  Free open-source referral & affiliate tracking software (React + Node.js + PostgreSQL). Supports recurring/lifetime commissions, fixed/percentage rewards, and customizable affiliate portals. MIT (older but still usable).
+- **[RefRef](https://github.com/refrefhq/refref)** [![Stars](https://img.shields.io/github/stars/refrefhq/refref?style=social&color=white)](https://github.com/refrefhq/refref/stargazers)  
+  Modern open-source referral and affiliate marketing platform (Next.js + TypeScript). Self-hostable with Docker, JS tracking snippet, customizable rewards, referrer/partner portals, fraud monitoring, and webhooks. AGPLv3.
+- **[schemeBeam](https://github.com/eemebarbe/schemeBeam)** [![Stars](https://img.shields.io/github/stars/eemebarbe/schemeBeam?style=social&color=white)](https://github.com/eemebarbe/schemeBeam/stargazers)  
+  Classic free viral/referral marketing tool (React/Node/MySQL) for building waitlist-style campaigns with invite links, leaderboards, and email capture. MIT.
+- **[Software Engineer Affiliate Program Hub](https://github.com/digital-marketing-engineer/software-engineer-affiliate-program-hub)** [![Stars](https://img.shields.io/github/stars/digital-marketing-engineer/software-engineer-affiliate-program-hub?style=social&color=white)](https://github.com/digital-marketing-engineer/software-engineer-affiliate-program-hub/stargazers)  
+  Explore curated affiliate programs tailored for software engineers. Get reviews, marketing strategies, and resources.
+- **[Refferq](https://github.com/Refferq/Refferq)** [![Stars](https://img.shields.io/github/stars/Refferq/Refferq?style=social&color=white)](https://github.com/Refferq/Refferq/stargazers)  
+  Feature-rich open-source affiliate management platform for SaaS (Next.js 15 + PostgreSQL). Includes admin & affiliate portals, real-time analytics, flexible commission rules, REST API (38+ endpoints), email notifications, and Docker/Vercel deployment. MIT.
+- **[Numok](https://github.com/dfg-ar/numok)** [![Stars](https://img.shields.io/github/stars/dfg-ar/numok?style=social&color=white)](https://github.com/dfg-ar/numok/stargazers)  
+  Lightweight open-source affiliate platform built specifically for SaaS on top of Stripe. Self-hosted, MIT-licensed, focused on automatic commission tracking and ownership of growth data.
+- **[RefearnApp](https://github.com/ZAK123DSFDF/refearnapp)** [![Stars](https://img.shields.io/github/stars/ZAK123DSFDF/refearnapp?style=social&color=white)](https://github.com/ZAK123DSFDF/refearnapp/stargazers)  
+  High-scale, self-hostable open-source alternative to Rewardful/FirstPromoter/Tolt. Built with Next.js, Cloudflare Edge, and Drizzle. Supports Stripe/Paddle, coupon tracking, PayPal mass payouts, advanced analytics, and full data ownership. AGPLv3.
+- **[OpenPartner](https://github.com/getcoherence/openpartner)** [![Stars](https://img.shields.io/github/stars/getcoherence/openpartner?style=social&color=white)](https://github.com/getcoherence/openpartner/stargazers)  
+  Open-source affiliate + creator partnership platform with full attribution chain, Stripe Connect payouts, partner portal, and MIT license. Designed as an open alternative to closed partner tools.
 
-| Platform | Company Size (Valuation / Revenue) | Description & Core Capabilities | Starting Pricing | Free Tier / Free Trial Limits |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Experian](https://www.experian.com/)** (Identity Resolution) | 🏦 **~$45.0B** (LSE: EXPN Market Cap / ~$7.1B Revenue) | 🛡️ Bureau-grade identity resolution and ConsumerView graph enabling offline-to-online deterministic linkage, householding, and demographic enrichment. | Starts at **$2,500/mo** ($30,000/yr minimum annual commitment or **$0.02–$0.08 per match lookup**). | **No free-forever plan**; 30-day sample data match-rate diagnostic test (up to 5,000 record test batch) via enterprise sales. |
-| **[TransUnion](https://www.transunion.com/)** (TruAudience) | 🏦 **~$19.0B** (NYSE: TRU Market Cap / ~$4.0B Revenue) | 🌐 Identity graph and resolution suite (incorporating Neustar OneID / Fabrick) for cross-screen identity, measurement, and privacy-first matching. | Starts at **$3,000/mo** ($36,000/yr base identity graph access and query license on Snowflake/AWS Marketplace). | **TruAudience Data Health Assessment (DHA)** free trial on Snowflake with up to **2,500 record matches**; 30-day POC trial. |
-| **[Twilio Segment](https://segment.com/)** (Unify) | 🚀 **~$12.0B** (Parent TWLO Market Cap / ~$4.2B Revenue; Segment acquired for $3.2B) | ⚡ Real-time identity resolution engine (Segment Unify) and customer profile merging across mobile, web, and server event pipelines. | **Free Forever Tier** on Connections; Team plan starts at **$120/mo** (up to 10k MTUs); Unify identity add-on starts at **$1,250/mo** ($15,000/yr). | **Free Forever Plan** on Connections (up to **1,000 MTUs** and 2 data sources); 14-day free trial on Team & Business CDP features. |
-| **[ZoomInfo RingLead](https://www.ringlead.com/)** | 📈 **~$5.0B** (NASDAQ: ZI Market Cap / ~$1.2B Revenue) | 🎯 Revenue operations and data orchestration platform for lead-to-account matching, CRM deduplication, data cleansing, and automated routing. | Starts at **$500/mo** ($6,000/yr base package for CRM deduplication; full Operations suite starts at **$20,000/yr**). | **No free-forever plan**; 14-day guided sandbox trial and CRM data quality health scan (up to 10,000 CRM records) upon scheduling a demo. |
-| **[Zeta Global](https://zetaglobal.com/)** | 📊 **~$4.8B** (NYSE: ZETA Market Cap / ~$750M Revenue) | 🔮 Marketing and identity platform combining proprietary Data Cloud graph (2.4B+ profiles), deterministic resolution, and omni-channel activation. | Starts at **$5,000/mo** ($60,000/yr base platform license or equivalent annual media commitment). | **No free-forever plan**; 30-day custom match-rate diagnostic & POC trial on a sample customer list upon sales engagement. |
-| **[Acxiom](https://www.acxiom.com/)** (Real ID) | 🏛️ **~$2.3B** (Enterprise Valuation / IPG Division / ~$500M Revenue) | 🧩 Enterprise identity resolution featuring the InfoBase identity graph and Acxiom Real ID for in-warehouse matching on Snowflake and Databricks. | Starts at **$2,000/mo** ($24,000/yr entry licensing or **$0.02–$0.05 per matched record** on Snowflake Marketplace). | **Snowflake Marketplace Test Drive** allowing up to **1,000 sample record matches**; 30-day proof of concept for enterprise datasets. |
-| **[LiveRamp](https://liveramp.com/)** | 🔗 **~$2.0B** (NYSE: RAMP Market Cap / ~$660M Revenue) | 🔒 Enterprise identity resolution and data collaboration platform with RampID deterministic graph, cross-channel identity translation, and Safe Haven clean rooms. | Starts at **$833/mo** ($10,000/yr base RampID resolution tier on AWS/Snowflake Marketplace; enterprise contracts avg $50,000–$150,000/yr). | **No free-forever plan**; 14-day to 30-day Proof of Concept (POC) / test-drive with up to 10,000 sample records upon sales approval. |
-| **[Reltio](https://www.reltio.com/)** | 🦄 **~$1.7B** (Series E Unicorn Valuation / ~$130M ARR) | 🏆 Cloud-native Master Data Management (MDM) and entity resolution platform for creating real-time trusted golden customer records. | **Free Forever Tier** available on Identity 360; Paid Enterprise MDM editions start at **$3,333/mo** ($40,000/yr on AWS Marketplace). | **Free Forever Plan** (Identity 360) supporting up to **10,000 unique consolidated profiles**; 30-day test drive for industry Velocity Packs. |
-| **[Tealium](https://tealium.com/)** (AudienceStream) | 🦄 **~$1.2B** (Unicorn CDP Valuation / ~$150M ARR) | 📡 Enterprise Customer Data Hub and CDP delivering real-time visitor stitching, omnichannel identity unification, and tag management. | Starts at **$2,500/mo** ($30,000/yr for entry EventStream + AudienceStream bundle managing up to 1M events/mo). | **No free-forever plan**; 30-day sandbox / POC trial with up to 500,000 test events upon enterprise sales discovery. |
-| **[Amperity](https://amperity.com/)** | 🦄 **~$1.0B** (Series D Unicorn Valuation / ~$100M ARR) | 🤖 AI-powered customer data platform specializing in patented Stitch identity resolution (probabilistic & deterministic) for unified enterprise Customer 360 profiles. | Starts at **$5,000/mo** ($60,000/yr base platform tier for Customer Data Cloud compute & Amp credits; enterprise contracts avg $100k–$250k+/yr). | **No free-forever plan**; 30-day custom sandbox / POC trial with up to 50,000 customer test records upon discovery demo. |
-| **[Treasure Data](https://www.treasuredata.com/)** | 💼 **~$1.0B** (Enterprise Valuation / SoftBank backed / ~$120M ARR) | ☁️ Enterprise CDP using a "No Compute" model to deliver high-scale identity resolution, IoT/event data unification, and predictive analytics. | Starts at **$3,500/mo** ($42,000/yr base subscription for profile management and behavioral event ingestion on AWS Marketplace). | **No free-forever plan**; 30-day enterprise POC trial environment on AWS Marketplace / enterprise evaluation. |
-| **[mParticle](https://www.mparticle.com/)** | 📱 **~$800M** (Series E Valuation / ~$80M ARR) | 📲 Real-time customer data platform with native IDSync multi-identifier resolution, cross-device rule stitching, and mobile SDK pipelines. | Starts at **$1,500/mo** ($18,000/yr base package for data ingestion and IDSync; average enterprise deployment ~$156,000/yr). | **No free-forever plan**; 30-day developer sandbox / POC trial with up to 100,000 test events upon sales consultation. |
-| **[ActionIQ](https://www.actioniq.com/)** (Uniphore) | 🏢 **~$400M** (Acquisition Valuation by Uniphore / ~$45M ARR) | 🔄 Composable CDP providing zero-copy data warehouse integration, Hybrid Identity Resolution, and enterprise audience orchestration. | Starts at **$8,333/mo** ($100,000/yr base enterprise subscription for composable identity and audience management). | **No free-forever plan**; 30-day enterprise Proof of Concept (POC) sandbox environment following custom data scoping. |
-| **[BlueConic](https://www.blueconic.com/)** | 💎 **~$350M** (Vista Equity Enterprise Valuation / ~$40M ARR) | 🎯 Pure-play customer data platform featuring automated profile unification, multi-identifier graph stitching, and real-time behavioral segmentation. | Starts at **$2,500/mo** ($30,000/yr base subscription tier for up to 100,000 active unified customer profiles). | **No free-forever plan**; 14-day to 30-day guided Proof of Concept (POC) trial upon scheduling an enterprise platform demo. |
-| **[Tapad](https://www.tapad.com/)** | 📱 **~$280M** (Acquisition Valuation by Experian) | 📲 Cross-device identity resolution and digital device graph linking cookies, MAIDs, CTV IDs, and household devices for omnichannel targeting. | Starts at **$3,000/mo** ($36,000/yr entry graph licensing and data feed access). | **No free-forever plan**; 30-day POC match assessment on sample cross-device dataset (up to 10,000 test device IDs). |
-| **[Infutor](https://www.infutor.com/)** (Verisk) | 🏢 **~$250M** (Acquisition Valuation by Verisk Marketing Solutions) | 🔍 Consumer identity resolution and TrueSource graph with real-time IDMax API for lead verification and CRM identity attribute completion. | Starts at **$500/mo** ($6,000/yr base API subscription or **$0.03–$0.07 per API lookup**). | **No free-forever plan**; 14-day free API test trial with up to **1,000 test lookups** upon developer account registration. |
-| **[Zeotap](https://zeotap.com/)** | 🇪🇺 **~$200M** (Series C Valuation / ~$25M ARR) | 🇪🇺 Customer data platform and ID+ graph providing deterministic and probabilistic identity resolution with strict European GDPR compliance. | Starts at **$2,500/mo** ($30,000/yr base tier for identity resolution and profile management up to 250,000 profiles). | **No free-forever plan**; 30-day guided POC trial and sandbox environment following enterprise sales demo. |
-| **[Lotame](https://www.lotame.com/)** (Panorama ID) | 🍪 **~$160M** (Enterprise Valuation / ~$35M ARR) | 🌐 Cookieless identity resolution (Panorama ID) and Spherical CDP for first-party data onboarding, enrichment, and cross-channel activation. | Starts at **$2,500/mo** ($30,000/yr base subscription for Spherical onboarding & identity platform). | **Free Forever Open Access** for Panorama ID generation/deployment for publishers/web; 30-day POC for Spherical CDP platform. |
-| **[FullContact](https://www.fullcontact.com/)** | 👤 **~$120M** (Enterprise Valuation / ~$20M ARR) | 👥 Identity resolution and data enrichment APIs powered by persistent PersonID, multi-identifier graph matching, and household linkages. | Starts at **$99/mo** (Developer API tier with up to 2,500 lookups/mo; commercial API packages start at **$500/mo** or $6,000/yr). | **Free Developer Trial Key** with **1,000 free API match/enrichment queries** (no expiration for initial test credits). |
+### Additional Strong Open-Source Options
+- **[Link attribution & short-link engines](https://github.com/dubinc/dub)** and related community forks for building custom referral tracking.
+- **[Stripe-connected affiliate starters]** and self-hosted commission calculators on GitHub.
+- **[Referral link generators, cookie-based trackers, and webhook handlers]** for lightweight custom systems.
+- **[Community AIS + IoT style sensor fusion projects]** adapted for marketing attribution and event tracking.
+- Many smaller **PHP/Node referral scripts**, **WooCommerce/Shopify open plugins**, and **notebook-based analytics** for reward modeling.
 
----
+**Frameworks for building custom systems**: Combine **RefRef / Refferq / RefearnApp** cores with **Dub** for attribution, **Stripe/Paddle webhooks**, **InfluxDB/Grafana** (or modern alternatives) for analytics dashboards, and simple reward fulfillment logic. Ideal for full data ownership and zero recurring SaaS fees. ??
 
-## 💻 Open-Source GitHub Projects
+## How to Contribute ??
+1. Fork the repo.
+2. Add/edit entries in README.md (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
 
-The list below features standout open-source frameworks, Python libraries, machine learning record linkers, and data cleaning utilities for building custom identity resolution pipelines, sorted in **descending order by GitHub star count**:
+Star the repo if you find it useful! ?
 
-- **[OpenRefine](https://github.com/OpenRefine/OpenRefine)** [![Stars](https://img.shields.io/github/stars/OpenRefine/OpenRefine?style=social&color=white)](https://github.com/OpenRefine/OpenRefine/stargazers)  
-  🧹 Powerful open-source data cleansing, entity reconciliation, and record clustering tool. Widely used for entity disambiguation, Wikidata reconciliation, and standardizing messy cross-channel identifier datasets before graph ingestion.
-
-- **[Snowplow](https://github.com/snowplow/snowplow)** [![Stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)  
-  ❄️ Enterprise-grade behavioral data pipeline that collects, enriches, and structures real-time customer event streams with first-party cookie IDs, device identifiers, and server-side identity stitching.
-
-- **[Jitsu](https://github.com/jitsucom/jitsu)** [![Stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)  
-  ⚡ Open-source, high-performance customer data platform (CDP) and event router for real-time user identification, anonymous-to-known user mapping, and warehouse synchronization.
-
-- **[Dedupe](https://github.com/dedupeio/dedupe)** [![Stars](https://img.shields.io/github/stars/dedupeio/dedupe?style=social&color=white)](https://github.com/dedupeio/dedupe/stargazers)  
-  🔍 Mature Python library for fuzzy matching, deduplication, and entity resolution using active learning. Learns domain-specific matching rules interactively with minimal human-labeled training data.
-
-- **[thefuzz](https://github.com/seatgeek/thefuzz)** [![Stars](https://img.shields.io/github/stars/seatgeek/thefuzz?style=social&color=white)](https://github.com/seatgeek/thefuzz/stargazers)  
-  🔤 Widely used fuzzy string matching library (formerly `fuzzywuzzy`) utilizing Levenshtein Distance to calculate similarity ratios for entity names, emails, and address fields in record linkage pipelines.
-
-- **[Splink](https://github.com/moj-analytical-services/splink)** [![Stars](https://img.shields.io/github/stars/moj-analytical-services/splink?style=social&color=white)](https://github.com/moj-analytical-services/splink/stargazers)  
-  🔗 Leading open-source probabilistic record linkage and entity resolution framework (DuckDB/SQL/Spark). Implements scalable Fellegi-Sunter mathematical models with transparent match weights, chart visualizers, and millions-of-records scale.
-
-- **[usaddress](https://github.com/datamade/usaddress)** [![Stars](https://img.shields.io/github/stars/datamade/usaddress?style=social&color=white)](https://github.com/datamade/usaddress/stargazers)  
-  📬 Probabilistic address parser powered by Conditional Random Fields (CRF) that normalizes unstructured street addresses into granular schema components for geographic entity resolution.
-
-- **[Zingg](https://github.com/zinggAI/zingg)** [![Stars](https://img.shields.io/github/stars/zinggAI/zingg?style=social&color=white)](https://github.com/zinggAI/zingg/stargazers)  
-  ⚡ Scalable open-source entity resolution tool using active learning and Apache Spark. Designed for large enterprise datasets, automated golden record creation, and customer 360 mastering workflows.
-
-- **[DeepMatcher](https://github.com/anhaidgroup/deepmatcher)** [![Stars](https://img.shields.io/github/stars/anhaidgroup/deepmatcher?style=social&color=white)](https://github.com/anhaidgroup/deepmatcher/stargazers)  
-  🧠 Deep learning-based entity matching library utilizing Recurrent Neural Networks (RNNs) and word embeddings to perform semantic record linkage across unstructured textual attributes.
-
-- **[Python Record Linkage Toolkit](https://github.com/J535D165/recordlinkage)** [![Stars](https://img.shields.io/github/stars/J535D165/recordlinkage?style=social&color=white)](https://github.com/J535D165/recordlinkage/stargazers)  
-  📊 Comprehensive Python library for record linkage and duplicate detection, offering indexing/blocking techniques, string comparison algorithms, and supervised/unsupervised classification models.
-
-- **[ProbablePeople](https://github.com/datamade/probablepeople)** [![Stars](https://img.shields.io/github/stars/datamade/probablepeople?style=social&color=white)](https://github.com/datamade/probablepeople/stargazers)  
-  👤 Machine learning-powered name parser for person and company names, parsing complex unstructured full names into first, middle, surname, nickname, and corporate entity attributes.
-
-- **[Apache Unomi](https://github.com/apache/unomi)** [![Stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers)  
-  🌐 Open-source Customer Data Platform (CDP) server providing privacy-centric (GDPR/OASIS CDP compliant) real-time customer profile storage, event processing, and cross-channel persona segmentation.
-
-- **[py_entitymatching (Magellan)](https://github.com/anhaidgroup/py_entitymatching)** [![Stars](https://img.shields.io/github/stars/anhaidgroup/py_entitymatching?style=social&color=white)](https://github.com/anhaidgroup/py_entitymatching/stargazers)  
-  🔬 End-to-end Python entity matching pipeline framework covering data exploration, blocking, feature extraction, model selection, and matching evaluation.
-
-- **[pyJedAI](https://github.com/AI-team-UoA/pyJedAI)** [![Stars](https://img.shields.io/github/stars/AI-team-UoA/pyJedAI?style=social&color=white)](https://github.com/AI-team-UoA/pyJedAI/stargazers)  
-  🎓 State-of-the-art Python toolkit implementing modern entity resolution clustering, schema-agnostic blocking, graph-based entity matching, and embedding similarities.
-
-- **[RudderStack dbt ID Resolution](https://github.com/rudderlabs/dbt-id-resolution)** [![Stars](https://img.shields.io/github/stars/rudderlabs/dbt-id-resolution?style=social&color=white)](https://github.com/rudderlabs/dbt-id-resolution/stargazers)  
-  🏛️ Open dbt package and SQL models for executing graph-based identity resolution and anonymous-to-known user profile stitching directly inside Snowflake, BigQuery, Redshift, and Databricks.
+## Disclaimer ??
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Referral and affiliate programs must comply with applicable advertising, consumer protection, and tax regulations in your jurisdiction.
+- Self-hosted open-source solutions require proper security, backup, and reliability practices (especially for financial/commission data).
 
 ---
+**Made for SaaS founders, e-commerce brands, growth marketers, and developers.** ??  
+Let's make referral marketing more open, transparent, and accessible.
 
-## 🌟 In-Warehouse & Graph Approaches
-
-Data engineering teams increasingly build custom identity resolution pipelines directly on their cloud data warehouses (CDW) and graph engines:
-
-1. **Warehouse-Native Graph Stitching (dbt + SQL)**: Utilizing packages like **RudderStack dbt ID Resolution** to build connected component graphs over event tables and identify calls. This outputs unified customer clusters directly in Snowflake, BigQuery, or Databricks without data egress.
-2. **High-Performance Probabilistic Linkage (Splink + DuckDB/Spark)**: Running **Splink** with DuckDB executes Fellegi-Sunter expectation-maximization models on millions of records in seconds, outputting transparent match probability scores and interactive cluster visualizations.
-3. **Graph Databases (Neo4j / Amazon Neptune / JanusGraph)**: Modeling users, devices, emails, credit cards, and addresses as nodes and edges to perform real-time path traversal, community detection (Louvain algorithm), and fraud ring detection.
-4. **Machine Learning Active Learning (Dedupe & Zingg)**: Using iterative human-in-the-loop labeling to train high-precision matching models on enterprise CRM datasets with complex business rules.
-
----
-
-## 🤝 How to Contribute
-
-Contributions from identity architects, data engineers, privacy researchers, and open-source developers are warmly welcome!
-
-1. 🍴 **Fork the repository** on GitHub.
-2. 🌿 **Create a feature branch**: `git checkout -b add-new-identity-tool`
-3. 📝 **Add your entry** in `README.md` following the exact table/list format:
-   - For SaaS tools: Include Platform Name, Website Link, Focus/Description, Company Size (Valuation/Revenue), Starting Pricing, and specific Free Tier/Trial Limits. Insert in the correct sorted order.
-   - For Open-Source projects: Include Repo Name, GitHub Link, Stargazers Star Badge, and Description. Insert in the correct star-sorted order.
-4. 🚀 **Submit a Pull Request** with a concise summary of the addition.
-
-⭐ **Star the repo** if you find it helpful for your identity resolution pipelines!
-
----
-
-## ⚠️ Evaluation Disclaimer
-
-- This repository is a **community-curated index** for informational and educational purposes — it does not constitute an endorsement or legal/compliance certification.
-- Identity resolution platforms must be evaluated for match accuracy (deterministic vs. probabilistic), false-positive tolerance, graph coverage, privacy regulation compliance (GDPR, CCPA/CPRA, HIPAA), latency requirements (real-time streaming vs. batch), and Total Cost of Ownership (TCO).
-- Open-source record linkage libraries provide complete transparency, model inspectability, and data privacy, but require internal engineering maintenance, data normalization preprocessing, and ongoing model tuning.
-
----
-
-## ⭐ Star History
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Identity-Resolution-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Identity-Resolution-Platform&type=date&legend=top-left)
-
----
-
-<p align="center">
-  <sub>Made with 🔗 for data engineers, identity architects, CDP teams, and privacy-conscious organizations seeking transparent and reliable identity resolution infrastructure.</sub>
-</p>## ☁️ SaaS/Hosted Platforms
-
-
-
-
-## 🔓 Open-Source GitHub Projects
-- **[visitormanagement](https://github.com/neozhu/visitormanagement)** [![GitHub stars](https://img.shields.io/github/stars/neozhu/visitormanagement?style=social&color=white)](https://github.com/neozhu/visitormanagement/stargazers)  
-  Open-source systems for digital registration, entry/exit tracking, and campus or institutional visitor logging with modern web UIs.
-- **[Django-Visitor-Management-System](https://github.com/shubhamkumar27/Django-Visitor-Management-System)** [![GitHub stars](https://img.shields.io/github/stars/shubhamkumar27/Django-Visitor-Management-System?style=social&color=white)](https://github.com/shubhamkumar27/Django-Visitor-Management-System/stargazers)  
-  A standard implementation of a VMS using the popular Python Django framework.
-- **[frontdesk](https://github.com/prodstarter/frontdesk)** [![GitHub stars](https://img.shields.io/github/stars/prodstarter/frontdesk?style=social&color=white)](https://github.com/prodstarter/frontdesk/stargazers)  
-  Open-source visitor management system built with Laravel and Filament PHP. Supports digital check-ins, visitor data management, customizable workflows, and real-time tracking — designed as a modern self-hosted alternative.
-- **[EasyVisit](https://github.com/ozzi-/EasyVisit)** [![GitHub stars](https://img.shields.io/github/stars/ozzi-/EasyVisit?style=social&color=white)](https://github.com/ozzi-/EasyVisit/stargazers)  
-  Self-hosted digital visitor list and check-in system with tablet support, badge generation, notifications (email/SMS), recurring visitor fast check-in, statistics, and customization options.
-- **[people-registry](https://github.com/Codefor-Future/people-registry)** [![GitHub stars](https://img.shields.io/github/stars/Codefor-Future/people-registry?style=social&color=white)](https://github.com/Codefor-Future/people-registry/stargazers)  
-  Vue.js "contactless" visitor tracking system that uses QR codes. Visitors scan the code to register their details.
-- **[VisitorPortal](https://github.com/P0etInc0de/VisitorPortal)** [![GitHub stars](https://img.shields.io/github/stars/P0etInc0de/VisitorPortal?style=social&color=white)](https://github.com/P0etInc0de/VisitorPortal/stargazers)  
-  Open-source Laravel-based visitor management portal featuring pre-registration, reception check-in/out, PDF badge printing, welcome displays, notifications, and role-based access control.
-- **[Visitor-Management](https://github.com/FALLEN-01/Visitor-Management)** [![GitHub stars](https://img.shields.io/github/stars/FALLEN-01/Visitor-Management?style=social&color=white)](https://github.com/FALLEN-01/Visitor-Management/stargazers)  
-  Python (Flask), MySQL, HTML/CSS/JS VMS offering real-time check-in/out, ID verification, badge printing, host notifications, and reporting.
-
+## Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Referral-Marketing-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Referral-Marketing-Platform&type=date&legend=top-left)
 
