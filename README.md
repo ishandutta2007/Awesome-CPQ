@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
-## SaaS/Hosted Platforms
+## 💼 SaaS/Hosted Platforms
 
 | Platform | Description | Pricing | Free Tier / Trial | Estimated Revenue/Valuation |
 |---|---|---|---|---|
@@ -47,29 +47,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[GrowSurf](https://growsurf.com/)** | API-first, developer-friendly referral software built for SaaS and tech companies, with embeddable widgets, leaderboards, and participant-based scaling. | Starting at $125/month | 14-day free trial | ~+ ARR |
 | **[InviteReferrals](https://www.invitereferrals.com/)** | Multi-channel referral and affiliate platform supporting flexible rewards, campaigns, and integrations for e-commerce and digital businesses. | Starting at $79/month | 14-day free trial (Up to 100 new referrers limit) | ~+ ARR |
 
-## Open-Source GitHub Projects
-
-- **[Dub](https://github.com/dubinc/dub)** [![Stars](https://img.shields.io/github/stars/dubinc/dub?style=social&color=white)](https://github.com/dubinc/dub/stargazers)  
+## 💻 Open-Source GitHub Projects
+- **[Maybe](https://github.com/maybe-finance/maybe)** [![Stars](https://img.shields.io/github/stars/maybe-finance/maybe?style=social&color=white)](https://github.com/maybe-finance/maybe/stargazers) 
+  The OS for your personal finances. Not strictly a referral marketing platform but built with open-source growth principles.
+- **[PostHog](https://github.com/PostHog/posthog)** [![Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) 
+  Open-source product analytics, session recording, feature flagging and A/B testing that you can self-host. Great for tracking referral campaigns and product-led growth.
+- **[Dub](https://github.com/dubinc/dub)** [![Stars](https://img.shields.io/github/stars/dubinc/dub?style=social&color=white)](https://github.com/dubinc/dub/stargazers) 
   Popular open-source link attribution platform (open-core) powering short links, conversion tracking, and affiliate/partner programs. Used by major teams; supports self-hosting with powerful analytics and partner features. AGPLv3 (core).
-- **[BranchMetrics iOS SDK](https://github.com/BranchMetrics/ios-branch-deep-linking-attribution)** [![Stars](https://img.shields.io/github/stars/BranchMetrics/ios-branch-deep-linking-attribution?style=social&color=white)](https://github.com/BranchMetrics/ios-branch-deep-linking-attribution/stargazers)  
-  The Branch iOS SDK for deep linking and attribution. Branch helps mobile apps grow with deep links that power paid acquisition and re-engagement campaigns, referral programs, and more.
-- **[Job Application Bot by Ollama AI](https://github.com/lookr-fyi/job-application-bot-by-ollama-ai)** [![Stars](https://img.shields.io/github/stars/lookr-fyi/job-application-bot-by-ollama-ai?style=social&color=white)](https://github.com/lookr-fyi/job-application-bot-by-ollama-ai/stargazers)  
-  End-to-end job agent that includes referrals from hiring managers - 100% hands-free.
-- **[Weferral](https://github.com/WeferralHq/weferral)** [![Stars](https://img.shields.io/github/stars/WeferralHq/weferral?style=social&color=white)](https://github.com/WeferralHq/weferral/stargazers)  
+- **[Weferral](https://github.com/WeferralHq/weferral)** [![Stars](https://img.shields.io/github/stars/WeferralHq/weferral?style=social&color=white)](https://github.com/WeferralHq/weferral/stargazers) 
   Free open-source referral & affiliate tracking software (React + Node.js + PostgreSQL). Supports recurring/lifetime commissions, fixed/percentage rewards, and customizable affiliate portals. MIT (older but still usable).
-- **[RefRef](https://github.com/refrefhq/refref)** [![Stars](https://img.shields.io/github/stars/refrefhq/refref?style=social&color=white)](https://github.com/refrefhq/refref/stargazers)  
+- **[RefRef](https://github.com/refrefhq/refref)** [![Stars](https://img.shields.io/github/stars/refrefhq/refref?style=social&color=white)](https://github.com/refrefhq/refref/stargazers) 
   Modern open-source referral and affiliate marketing platform (Next.js + TypeScript). Self-hostable with Docker, JS tracking snippet, customizable rewards, referrer/partner portals, fraud monitoring, and webhooks. AGPLv3.
-- **[schemeBeam](https://github.com/eemebarbe/schemeBeam)** [![Stars](https://img.shields.io/github/stars/eemebarbe/schemeBeam?style=social&color=white)](https://github.com/eemebarbe/schemeBeam/stargazers)  
+- **[schemeBeam](https://github.com/eemebarbe/schemeBeam)** [![Stars](https://img.shields.io/github/stars/eemebarbe/schemeBeam?style=social&color=white)](https://github.com/eemebarbe/schemeBeam/stargazers) 
   Classic free viral/referral marketing tool (React/Node/MySQL) for building waitlist-style campaigns with invite links, leaderboards, and email capture. MIT.
-- **[Software Engineer Affiliate Program Hub](https://github.com/digital-marketing-engineer/software-engineer-affiliate-program-hub)** [![Stars](https://img.shields.io/github/stars/digital-marketing-engineer/software-engineer-affiliate-program-hub?style=social&color=white)](https://github.com/digital-marketing-engineer/software-engineer-affiliate-program-hub/stargazers)  
-  Explore curated affiliate programs tailored for software engineers. Get reviews, marketing strategies, and resources.
-- **[Refferq](https://github.com/Refferq/Refferq)** [![Stars](https://img.shields.io/github/stars/Refferq/Refferq?style=social&color=white)](https://github.com/Refferq/Refferq/stargazers)  
+- **[Refferq](https://github.com/Refferq/Refferq)** [![Stars](https://img.shields.io/github/stars/Refferq/Refferq?style=social&color=white)](https://github.com/Refferq/Refferq/stargazers) 
   Feature-rich open-source affiliate management platform for SaaS (Next.js 15 + PostgreSQL). Includes admin & affiliate portals, real-time analytics, flexible commission rules, REST API (38+ endpoints), email notifications, and Docker/Vercel deployment. MIT.
-- **[Numok](https://github.com/dfg-ar/numok)** [![Stars](https://img.shields.io/github/stars/dfg-ar/numok?style=social&color=white)](https://github.com/dfg-ar/numok/stargazers)  
+- **[Numok](https://github.com/dfg-ar/numok)** [![Stars](https://img.shields.io/github/stars/dfg-ar/numok?style=social&color=white)](https://github.com/dfg-ar/numok/stargazers) 
   Lightweight open-source affiliate platform built specifically for SaaS on top of Stripe. Self-hosted, MIT-licensed, focused on automatic commission tracking and ownership of growth data.
-- **[RefearnApp](https://github.com/ZAK123DSFDF/refearnapp)** [![Stars](https://img.shields.io/github/stars/ZAK123DSFDF/refearnapp?style=social&color=white)](https://github.com/ZAK123DSFDF/refearnapp/stargazers)  
+- **[RefearnApp](https://github.com/ZAK123DSFDF/refearnapp)** [![Stars](https://img.shields.io/github/stars/ZAK123DSFDF/refearnapp?style=social&color=white)](https://github.com/ZAK123DSFDF/refearnapp/stargazers) 
   High-scale, self-hostable open-source alternative to Rewardful/FirstPromoter/Tolt. Built with Next.js, Cloudflare Edge, and Drizzle. Supports Stripe/Paddle, coupon tracking, PayPal mass payouts, advanced analytics, and full data ownership. AGPLv3.
-- **[OpenPartner](https://github.com/getcoherence/openpartner)** [![Stars](https://img.shields.io/github/stars/getcoherence/openpartner?style=social&color=white)](https://github.com/getcoherence/openpartner/stargazers)  
+- **[OpenPartner](https://github.com/getcoherence/openpartner)** [![Stars](https://img.shields.io/github/stars/getcoherence/openpartner?style=social&color=white)](https://github.com/getcoherence/openpartner/stargazers) 
   Open-source affiliate + creator partnership platform with full attribution chain, Stripe Connect payouts, partner portal, and MIT license. Designed as an open alternative to closed partner tools.
 
 ### Additional Strong Open-Source Options
@@ -81,7 +78,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 **Frameworks for building custom systems**: Combine **RefRef / Refferq / RefearnApp** cores with **Dub** for attribution, **Stripe/Paddle webhooks**, **InfluxDB/Grafana** (or modern alternatives) for analytics dashboards, and simple reward fulfillment logic. Ideal for full data ownership and zero recurring SaaS fees. ??
 
-## How to Contribute ??
+## 🤝 How to Contribute ??
 1. Fork the repo.
 2. Add/edit entries in README.md (follow existing format).
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
@@ -89,7 +86,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 Star the repo if you find it useful! ?
 
-## Disclaimer ??
+## ⚠️ Disclaimer ??
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 - Referral and affiliate programs must comply with applicable advertising, consumer protection, and tax regulations in your jurisdiction.
 - Self-hosted open-source solutions require proper security, backup, and reliability practices (especially for financial/commission data).
